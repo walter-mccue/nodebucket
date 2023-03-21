@@ -1,3 +1,11 @@
+/**
+ * Title: app-routing.module.ts
+ * Author: Richard Krasso
+ * Contributor: Walter McCue
+ * Date: 03/19/23
+ * Description: routing for the nodebucket project
+*/
+
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import {BaseLayoutComponent} from "./shared/base-layout/base-layout.component";

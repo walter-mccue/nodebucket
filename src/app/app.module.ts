@@ -1,3 +1,11 @@
+/**
+ * Title: app.module.ts
+ * Author: Richard Krasso
+ * Contributor: Walter McCue
+ * Date: 03/19/23
+ * Description: app.module.ts for the nodebucket project
+*/
+
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 

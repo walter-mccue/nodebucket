@@ -1,3 +1,11 @@
+/**
+ * Title: home.component.ts
+ * Author: Richard Krasso
+ * Contributor: Walter McCue
+ * Date: 03/19/23
+ * Description: ts for the nodebucket project
+*/
+
 import { Component, OnInit } from '@angular/core';
 
 @Component({
