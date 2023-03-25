@@ -1,3 +1,11 @@
+/**
+ * Title: test.ts
+ * Author: Richard Krasso
+ * Contributor: Walter McCue
+ * Date: 03/19/23
+ * Description: ts for the nodebucket project
+*/
+
 // This file is required by karma.conf.js and loads recursively all the .spec and framework files
 
 import 'zone.js/testing';

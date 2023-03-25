@@ -1,0 +1,46 @@
+[
+  {
+    "empId": 1007,
+    "firstName": "Corey",
+    "lastName": "Taylor",
+    "todo": [
+      {
+        "task": "Write song"
+      },
+      {
+        "task": "Sing song"
+      }
+    ],
+    "done": [
+      {
+        "task": "Band practice"
+      },
+      {
+        "task": "Live show"
+      }
+    ]
+  },
+  {
+    "empId": 1008,
+    "firstName": "David",
+    "lastName": "Draiman",
+    "todo": [
+      {
+        "task": "Write song"
+      },
+      {
+        "task": "Sing song"
+      }
+    ],
+    "done": [
+      {
+        "task": "Band practice"
+      },
+      {
+        "task": "Live show"
+      }
+    ]
+  }
+]
+
+

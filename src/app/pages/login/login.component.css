@@ -1,0 +1,50 @@
+/**
+Title: login.component.sss
+Author: Richard Krasso
+Contributor: Walter McCue
+Date: 03/26/23
+Description: styling for the nodebucket project
+*/
+
+.login-container {
+  width: 35%;
+  margin: 10% auto;
+}
+
+.login-title {
+  text-align: center;
+  font-size: 48px;
+  font-weight: lighter;
+  padding: 20px;
+}
+
+.login-subtitle {
+  text-align: center;
+  font-weight: lighter;
+  padding: 5px;
+  color: #000;
+}
+
+.mat-card {
+  padding: 0;
+}
+
+.mat-card-header {
+  background-color: #ecb939;
+  padding-left: 8%;
+  padding-top: 15px;
+  color: #372e29;
+}
+
+.mat-card-content {
+  padding: 20px;
+}
+
+.btn-lg {
+  height: 36px;
+}
+
+.mat-form-field-underline .mat-focused .mat-form-field-ripple {
+  background-color: #000;
+}
+

@@ -1,7 +1,15 @@
+/**
+Title: base-layout.component.sss
+Author: Richard Krasso
+Contributor: Walter McCue
+Date: 03/19/23
+Description: styling for the nodebucket project
+*/
+
 .logo {
   margin-left: 75px;
   font-size: 24px;
-  font-weight: lighter;;
+  font-weight: lighter;
 }
 
 .navbar-container {
@@ -32,8 +40,11 @@
 
 .bu-link {
   text-decoration: none;
+  color: #432e63;
 }
 
 .bu-link:hover {
   text-decoration: underline;
 }
+
+

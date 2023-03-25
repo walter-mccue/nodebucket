@@ -1,4 +1,12 @@
 /**
+ * Title: main.ts
+ * Author: Richard Krasso
+ * Contributor: Walter McCue
+ * Date: 03/19/23
+ * Description: polyfills.ts for the nodebucket project
+*/
+
+/**
  * This file includes polyfills needed by Angular and is loaded before the app.
  * You can add your own extra polyfills to this file.
  *
