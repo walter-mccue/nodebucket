@@ -15,6 +15,7 @@ import { LoginComponent } from './pages/login/login.component';
 import { AuthGuard } from './auth.guard';
 import { AboutComponent } from './pages/about/about.component';
 import { ContactComponent } from './pages/contact/contact.component';
+import { NotFoundComponent } from './pages/not-found/not-found.component';
 
 const routes: Routes = [
   {
@@ -45,9 +46,18 @@ const routes: Routes = [
       {
         path: 'login',
         component: LoginComponent
+      },
+      {
+        path: 'not-found',
+        component: NotFoundComponent
       }
     ]
   },
+  // Unexpected URL values will redirect users to the 404 error page
+  {
+    path: '**',
+    redirectTo: 'session/not-found'
+  }
 ];
 
 @NgModule({
