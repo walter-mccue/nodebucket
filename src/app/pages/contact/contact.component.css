@@ -5,3 +5,7 @@ Contributor: Walter McCue
 Date: 03/26/23
 Description: styling for the nodebucket project
 */
+
+mat-card {
+  margin-right: 25px;
+}
