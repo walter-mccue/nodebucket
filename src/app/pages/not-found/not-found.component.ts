@@ -1,3 +1,10 @@
+/**
+ * Title: not-found.component.ts
+ * Author: Walter McCue
+ * Date: 03/26/23
+ * Description: ts for the nodebucket project
+*/
+
 import { Component, OnInit } from '@angular/core';
 
 @Component({

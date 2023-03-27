@@ -40,9 +40,34 @@ body {
 
 .img-container {
   display: grid;
+  margin-left: auto;
+  margin-right: auto;
   place-items: center;
+  max-width: 1100px;
 }
 
 .text-center {
   text-align: center;
+}
+
+/* Desktop vs Mobile Styling */
+
+.mobile {
+  display: none;
+}
+
+@media screen and (max-width: 800px) {
+  .desktop {
+    display: none;
+  }
+  .mobile {
+    display: block;
+    display: grid;
+    place-items: center;
+  }
+  .mobile-row {
+    display: flex;
+    flex-direction: row;
+    width: 95%
+  }
 }
