@@ -248,7 +248,7 @@ router.post('/:empId/tasks', async(req, res, next) => {
         // Error handling for a failed validation
         if (!valid) {
           const err = Error('Bad Request')
-          rr.status = 400
+          err.status = 400
           console.error('Bad Request. Unable to validate req.body against the defined schema')
           errorLogger({filename: myFile, message: errorString})
           next(err)
