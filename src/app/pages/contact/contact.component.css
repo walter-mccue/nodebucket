@@ -8,3 +8,13 @@ Description: styling for the nodebucket project
 mat-card {
   margin-right: 25px;
 }
+
+@media screen and (max-width: 800px) {
+  .contact-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .contact-content {
+    width: 95%
+  }
+}

@@ -1,0 +1,18 @@
+[3/27/2023, 8:55:34 PM] server	 employee-route.js - req.params must be a number: NaN
+[3/27/2023, 8:55:55 PM] server	 employee-route.js - NotFoundError: Not Found
+[3/27/2023, 9:20:23 PM] server	 employee-route.js - NotFoundError: Not Found
+[3/27/2023, 9:20:33 PM] server	 employee-route.js - req.params must be a number: NaN
+[3/27/2023, 9:23:14 PM] server	 employee-route.js - id could note be parsed: NaN
+[3/27/2023, 10:07:18 PM] server	 employee-route.js - id could note be parsed: NaN
+[3/27/2023, 10:07:18 PM] server	 employee-route.js - req.params.empId must be a number foo
+[3/27/2023, 10:07:49 PM] server	 employee-route.js - NotFoundError: Not Found
+[3/27/2023, 10:32:08 PM] server	 employee-route.js - id could note be parsed: NaN
+[3/27/2023, 10:32:08 PM] server	 employee-route.js - id could not be parsed: foo
+[3/27/2023, 10:33:40 PM] server	 employee-route.js - NotFoundError: Not Found
+[3/27/2023, 10:33:56 PM] server	 employee-route.js - id could note be parsed: NaN
+[3/27/2023, 10:33:56 PM] server	 employee-route.js - req.params must be a number: foo
+[3/27/2023, 10:40:33 PM] server	 employee-route.js - NotFoundError: Not Found
+[3/27/2023, 11:38:11 PM] server	 employee-route.js - id could note be parsed: NaN
+[3/27/2023, 11:38:11 PM] server	 employee-route.js - req.params must be a number: foo
+[3/27/2023, 11:38:42 PM] server	 employee-route.js - NotFoundError: Not Found
+[3/27/2023, 11:51:23 PM] server	 employee-route.js - NotFoundError: Not Found

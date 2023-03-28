@@ -65,9 +65,4 @@ body {
     display: grid;
     place-items: center;
   }
-  .mobile-row {
-    display: flex;
-    flex-direction: row;
-    width: 95%
-  }
 }
