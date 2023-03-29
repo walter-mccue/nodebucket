@@ -63,7 +63,7 @@ const taskSchema = {
  *           type: number
  *     responses:
  *       '200':
- *         description: Composer document
+ *         description: Employee document
  *       '400':
  *         description: Bad Request
  *       '404':
@@ -132,7 +132,7 @@ router.get('/:id' , (req, res, next) => {
  *           type: number
  *     responses:
  *       '200':
- *         description: Employee's all tasks
+ *         description: All tasks listed given the empId
  *       '400':
  *         description: Bad Request
  *       '404':

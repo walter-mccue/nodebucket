@@ -116,3 +116,17 @@
   done: [],
   __v: 1
 }
+[3/29/2023, 6:39:03 PM] server	 employee-route.js - {
+  _id: new ObjectId("6419030efb42201f0d57dc6e"),
+  empId: 1007,
+  firstName: 'Corey',
+  lastName: 'Taylor',
+  __v: 1,
+  done: [],
+  todo: [
+    {
+      text: 'Go to bed early',
+      _id: new ObjectId("64224a72abde6e5c53c83cb9")
+    }
+  ]
+}

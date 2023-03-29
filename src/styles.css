@@ -50,10 +50,26 @@ body {
   text-align: center;
 }
 
+.main-container {
+  margin-bottom: 100px;
+  justify-content: center;
+}
+
 /* Desktop vs Mobile Styling */
 
 .mobile {
   display: none;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.content-container {
+  width: 45%;
+  margin: 2%;
+  justify-items: center;
 }
 
 @media screen and (max-width: 800px) {
@@ -64,5 +80,12 @@ body {
     display: block;
     display: grid;
     place-items: center;
+  }
+  .flex-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .content-container {
+    width: 95%;
   }
 }
