@@ -1,7 +1,6 @@
 /**
  * Title: contact.component.ts
- * Author: Richard Krasso
- * Contributor: Walter McCue
+ * Author: Walter McCue
  * Date: 03/26/23
  * Description: ts for the nodebucket project
 */

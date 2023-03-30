@@ -1,0 +1,23 @@
+/**
+Title: not-found.component.sss
+Author: Walter McCue
+Date: 03/26/23
+Description: styling for the nodebucket project
+*/
+
+p {
+  color: #fff;
+  font-size: 28px;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+a {
+  color: #ecb939;
+  text-decoration: none;
+}
+
+a:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
