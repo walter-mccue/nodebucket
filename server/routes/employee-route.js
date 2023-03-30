@@ -12,11 +12,12 @@ const Employee = require('../models/employee');
 const router = express.Router();
 const { debugLogger, errorLogger } = require('../logs/logger');
 const createError = require('http-errors');
-const Ajv = require('ajv')
+const Ajv = require('ajv');
+const BaseResponse = require('../models/base-response');
 
 // Logging and Validation
 const myFile = 'employee-route.js';
-const ajv = new Ajv()
+const ajv = new Ajv();
 
 // Reusable function to determine if empId is a number
 const checkNum = (id) => {
@@ -259,7 +260,10 @@ router.post('/:empId/tasks', async(req, res, next) => {
           const result = await emp.save()
           console.log(result)
           debugLogger({filename: myFile, message: result})
-          res.status(204).send()
+          // Response to Client
+          const task = result.todo.pop()
+          const newTaskResponse = new BaseResponse(201, 'Task item added successfully', {id: task._id})
+          res.status(201).send(newTaskResponse)
         }
 
       // Not Found if MongoDB returns a null record

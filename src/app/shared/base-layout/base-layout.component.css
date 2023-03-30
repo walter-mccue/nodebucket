@@ -6,23 +6,18 @@ Date: 03/19/23
 Description: styling for the nodebucket project
 */
 
-.logo {
-  margin-left: 75px;
-  font-size: 24px;
-  font-weight: lighter;
-}
-
 .navbar-container {
-  padding: 5px;
+  padding: 1px;
 }
 
 .navbar-link {
   font-size: 24px;
-  font-weight: lighter;
+  font-weight: bolder;
 }
 
 .main-content {
-  padding-left: 30px;
+  padding: 30px;
+  margin-bottom: 50px;
 }
 
 .footer {

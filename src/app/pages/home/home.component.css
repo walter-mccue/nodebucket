@@ -19,3 +19,27 @@ Description: styling for the nodebucket project
   text-align: center;
   font-size: 14px;
 }
+
+.task-container {
+  margin: 0 auto 30px auto;
+}
+
+.task-column {
+  border: 1px solid #ccc;
+  min-height: 68px;
+  background: #fff;
+  border-radius: 4px;
+  overflow: hidden;
+  display: block;
+}
+
+.task-card {
+  cursor: move;
+  padding: 20px 10px;
+  border-bottom: 1px solid #ccc;
+  min-height: 68px;
+  font-size: 14px;
+  box-sizing: border-box;
+  justify-content: space-between;
+  align-items: center;
+}
