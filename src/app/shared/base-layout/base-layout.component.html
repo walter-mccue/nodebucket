@@ -13,12 +13,23 @@
 
     <mat-toolbar class="primary-color">
 
+      <div class="mobile-toggle">
+        <button mat-icon-button [matMenuTriggerFor]="navMenu" aria-label="Navigation Menu">
+          <mat-icon>menu</mat-icon>
+          <mat-menu #navMenu class="primary-color">
+            <button class="navbar-link" routerLink="/" mat-button><img src="../../../assets/home-logo.jpg" alt="Nodebucket Link" /></button>
+            <button class="navbar-link" routerLink="/about" mat-button><img src="../../../assets/about-logo.jpg" alt="About Link" /></button>
+            <button class="navbar-link" routerLink="/contact" mat-button><img src="../../../assets/contact-logo.jpg" alt="Contact Link" /></button>
+          </mat-menu>
+        </button>
+      </div>
+
       <!-- navbar container -->
-      <div class="navbar-container">
+      <div fxFlex class="navbar-container">
         <!-- logo -->
-        <button class="navbar-link" routerLink="/" mat-button><img src="../../../assets/home-logo.jpg" alt="Nodebucket" /></button>
-        <button class="navbar-link" routerLink="/about" mat-button><img src="../../../assets/about-logo.jpg" alt="About" /></button>
-        <button class="navbar-link" routerLink="/contact" mat-button><img src="../../../assets/contact-logo.jpg" alt="Contact Us" /></button>
+        <button class="navbar-link" routerLink="/" mat-button><img src="../../../assets/home-logo.jpg" alt="Nodebucket Link" /></button>
+        <button class="navbar-link" routerLink="/about" mat-button><img src="../../../assets/about-logo.jpg" alt="About Link" /></button>
+        <button class="navbar-link" routerLink="/contact" mat-button><img src="../../../assets/contact-logo.jpg" alt="Contact Link" /></button>
       </div>
 
       <div fxFlex></div>
@@ -31,7 +42,7 @@
           <p style="padding: 10px; font-size: 16px; font-weight: bolder">Signed in as {{ sessionName }}</p>
           <button mat-menu-item (click)="logout()">
             <mat-icon>logout</mat-icon>
-            <span>Log out</span>
+            <span style="font-size: 16px; font-weight: bolder">Log out</span>
           </button>
         </mat-menu>
       </div>

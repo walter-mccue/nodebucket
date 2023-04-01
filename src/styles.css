@@ -17,6 +17,7 @@ body {
   font-family: Roboto, "Helvetica Neue", sans-serif;
   background-color: #000;
   color: #fff;
+  overflow-x: hidden;
 }
 
 .w-100 {
@@ -25,11 +26,11 @@ body {
 
 .primary-color {
   background-color: #ecb939;
-  color: #372e29;
+  color: #000;
 }
 
 .secondary-color {
-  background-color: #372e29;
+  background-color: #000;
   color: #ecb939;
 }
 
