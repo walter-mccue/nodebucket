@@ -13,6 +13,7 @@
 
     <mat-toolbar class="primary-color">
 
+      <!-- Mobile Navbar -->
       <div class="mobile-toggle">
         <button mat-icon-button [matMenuTriggerFor]="navMenu" aria-label="Navigation Menu">
           <mat-icon>menu</mat-icon>
@@ -24,9 +25,8 @@
         </button>
       </div>
 
-      <!-- navbar container -->
+      <!-- Desktop Navbar -->
       <div fxFlex class="navbar-container">
-        <!-- logo -->
         <button class="navbar-link" routerLink="/" mat-button><img src="../../../assets/home-logo.jpg" alt="Nodebucket Link" /></button>
         <button class="navbar-link" routerLink="/about" mat-button><img src="../../../assets/about-logo.jpg" alt="About Link" /></button>
         <button class="navbar-link" routerLink="/contact" mat-button><img src="../../../assets/contact-logo.jpg" alt="Contact Link" /></button>
@@ -34,6 +34,7 @@
 
       <div fxFlex></div>
 
+      <!-- Logout -->
       <div>
         <button mat-icon-button [matMenuTriggerFor]="profileMenu" aria-label="User Profile menu">
           <mat-icon>perm_identity</mat-icon>
