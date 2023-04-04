@@ -1,4 +1,12 @@
 /**
+ * Title: test-route.js
+ * Author: Richard Krasso
+ * Contributor: Walter McCue
+ * Date: 04/3/23
+ * Description: file to showcase a timeout for server response
+*/
+
+/**
  * Find all Tasks in the employee collection;
  * but no response within 500ms, let's return a 500 server error
  * for timeout

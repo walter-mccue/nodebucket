@@ -18,3 +18,16 @@
 [3/27/2023, 11:51:23 PM] server	 employee-route.js - NotFoundError: Not Found
 [4/3/2023, 9:44:55 PM] server	 employee-route.js - re.param.empId must be a number: NaN
 [4/3/2023, 9:50:02 PM] server	 employee-route.js - TaskId not found 6424d747c801b59afaf26b82f
+[4/3/2023, 11:22:55 PM] server	 employee-route.js - AbortError: The operation was aborted
+[4/3/2023, 11:23:22 PM] server	 employee-route.js - AbortError: The operation was aborted
+[4/3/2023, 11:24:03 PM] server	 employee-route.js - AbortError: The operation was aborted
+[4/3/2023, 11:24:22 PM] server	 employee-route.js - AbortError: The operation was aborted
+[4/3/2023, 11:24:47 PM] server	 employee-route.js - AbortError: The operation was aborted
+[4/3/2023, 11:25:54 PM] server	 employee-route.js - AbortError: The operation was aborted
+[4/3/2023, 11:26:08 PM] server	 employee-route.js - AbortError: The operation was aborted
+[4/3/2023, 11:26:51 PM] server	 employee-route.js - AbortError: The operation was aborted
+[4/3/2023, 11:33:58 PM] server	 employee-route.js - AbortError: The operation was aborted
+[4/4/2023, 12:04:07 AM] server	 employee-route.js - NotFoundError: Not Found
+[4/4/2023, 12:05:05 AM] server	 employee-route.js - Bad Request. Unable to verify req.body schema against tasksSchema
+[4/4/2023, 12:09:02 AM] server	 employee-route.js - NotFoundError: Not Found
+[4/4/2023, 12:09:34 AM] server	 employee-route.js - TaskId not found 642ba0c0ccc7542f564fc218
