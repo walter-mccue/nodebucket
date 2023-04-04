@@ -10780,3 +10780,79 @@
     }
   ]
 }
+[4/3/2023, 9:46:47 PM] server	 employee-route.js - {
+  _id: new ObjectId("6419030efb42201f0d57dc6e"),
+  empId: 1007,
+  done: [],
+  todo: [
+    {
+      text: 'Go to bed early',
+      _id: new ObjectId("64224a72abde6e5c53c83cb9")
+    },
+    {
+      text: 'go to bed early part 2',
+      _id: new ObjectId("6424d51a9d524e43c3279a2c")
+    },
+    {
+      text: 'Go to bed early part 3',
+      _id: new ObjectId("6424d747c801b59aff26b82f")
+    },
+    {
+      text: 'complete styling',
+      _id: new ObjectId("6424fa9eb18842728a656184")
+    },
+    {
+      text: 'Make brownies',
+      _id: new ObjectId("64250552b18842728a6563fc")
+    }
+  ]
+}
+[4/3/2023, 9:50:06 PM] server	 employee-route.js - {
+  _id: new ObjectId("6419030efb42201f0d57dc6e"),
+  empId: 1007,
+  firstName: 'Corey',
+  lastName: 'Taylor',
+  __v: 6,
+  done: [],
+  todo: [
+    {
+      text: 'Go to bed early',
+      _id: new ObjectId("64224a72abde6e5c53c83cb9")
+    },
+    {
+      text: 'go to bed early part 2',
+      _id: new ObjectId("6424d51a9d524e43c3279a2c")
+    },
+    {
+      text: 'complete styling',
+      _id: new ObjectId("6424fa9eb18842728a656184")
+    },
+    {
+      text: 'Make brownies',
+      _id: new ObjectId("64250552b18842728a6563fc")
+    }
+  ]
+}
+[4/3/2023, 9:50:22 PM] server	 employee-route.js - {
+  _id: new ObjectId("6419030efb42201f0d57dc6e"),
+  empId: 1007,
+  done: [],
+  todo: [
+    {
+      text: 'Go to bed early',
+      _id: new ObjectId("64224a72abde6e5c53c83cb9")
+    },
+    {
+      text: 'go to bed early part 2',
+      _id: new ObjectId("6424d51a9d524e43c3279a2c")
+    },
+    {
+      text: 'complete styling',
+      _id: new ObjectId("6424fa9eb18842728a656184")
+    },
+    {
+      text: 'Make brownies',
+      _id: new ObjectId("64250552b18842728a6563fc")
+    }
+  ]
+}
