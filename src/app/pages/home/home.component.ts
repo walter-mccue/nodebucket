@@ -27,6 +27,7 @@ export class HomeComponent implements OnInit {
   serverMessages: Message[] = [];
   employee: Employee;
   todo: Item[];
+  doing: Item[];
   done: Item[];
   empId: number;
   newTaskId: string;
@@ -43,6 +44,7 @@ export class HomeComponent implements OnInit {
     this.empId = parseInt(this.cookieService.get('session_user'), 10)
     this.employee = {} as Employee
     this.todo = []
+    this.doing = []
     this.done = []
     this.newTaskId = ''
     this.newTaskMessage = ''
@@ -66,9 +68,11 @@ export class HomeComponent implements OnInit {
       },
       complete: () => {
         this.todo = this.employee.todo
+        this.doing = this.employee.doing
         this.done = this.employee.done
-        console.log('--ToDo and Done Data--')
+        console.log('--ToDo, Doing, and Done Data--')
         console.log(this.todo)
+        console.log(this.doing)
         console.log(this.done)
       }
     })

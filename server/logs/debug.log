@@ -11203,3 +11203,953 @@
     }
   ]
 }
+[4/4/2023, 10:23:57 AM] server	 employee-route.js - {
+  _id: new ObjectId("6419048ffb42201f0d57dc74"),
+  empId: 1012,
+  done: [
+    {
+      text: 'complete Sprint 1',
+      _id: new ObjectId("642b8bbd9e603db097ae4fe2")
+    },
+    {
+      text: 'Complete Sprint 2',
+      _id: new ObjectId("642b8bbd9e603db097ae4fe3")
+    }
+  ],
+  todo: []
+}
+[4/4/2023, 10:26:46 AM] server	 employee-route.js - {
+  empId: 1012,
+  firstName: 'Philip',
+  lastName: 'Labonte',
+  todo: [
+    {
+      text: 'Complete doing',
+      _id: new ObjectId("642c33a6bf6aca94546f6c5b")
+    },
+    {
+      text: 'Complete sprint 3',
+      _id: new ObjectId("642c33a6bf6aca94546f6c5c")
+    }
+  ],
+  done: [
+    {
+      text: 'complete Sprint 1',
+      _id: new ObjectId("642c33a6bf6aca94546f6c5d")
+    },
+    {
+      text: 'Complete Sprint 2',
+      _id: new ObjectId("642c33a6bf6aca94546f6c5e")
+    }
+  ],
+  doing: [ { text: 'Doing', _id: new ObjectId("642c33a6bf6aca94546f6c5f") } ],
+  _id: new ObjectId("6419048ffb42201f0d57dc74"),
+  __v: 4
+}
+[4/4/2023, 10:27:56 AM] server	 employee-route.js - {
+  _id: new ObjectId("6419048ffb42201f0d57dc74"),
+  empId: 1012,
+  done: [
+    {
+      text: 'complete Sprint 1',
+      _id: new ObjectId("642c33a6bf6aca94546f6c5d")
+    },
+    {
+      text: 'Complete Sprint 2',
+      _id: new ObjectId("642c33a6bf6aca94546f6c5e")
+    }
+  ],
+  todo: [
+    {
+      text: 'Complete doing',
+      _id: new ObjectId("642c33a6bf6aca94546f6c5b")
+    },
+    {
+      text: 'Complete sprint 3',
+      _id: new ObjectId("642c33a6bf6aca94546f6c5c")
+    }
+  ]
+}
+[4/4/2023, 10:37:55 AM] server	 employee-route.js - {
+  empId: 1012,
+  firstName: 'Philip',
+  lastName: 'Labonte',
+  todo: [
+    {
+      text: 'Complete doing',
+      _id: new ObjectId("642c36431068f52ea4770765")
+    },
+    {
+      text: 'Complete sprint 3',
+      _id: new ObjectId("642c36431068f52ea4770766")
+    }
+  ],
+  done: [
+    {
+      text: 'complete Sprint 1',
+      _id: new ObjectId("642c36431068f52ea4770767")
+    },
+    {
+      text: 'Complete Sprint 2',
+      _id: new ObjectId("642c36431068f52ea4770768")
+    }
+  ],
+  doing: [
+    { text: 'Doing', _id: new ObjectId("642c36431068f52ea4770769") },
+    { text: 'Testing', _id: new ObjectId("642c36431068f52ea477076a") }
+  ],
+  _id: new ObjectId("6419048ffb42201f0d57dc74"),
+  __v: 5
+}
+[4/4/2023, 10:40:34 AM] server	 employee-route.js - {
+  empId: 1012,
+  firstName: 'Philip',
+  lastName: 'Labonte',
+  todo: [
+    {
+      text: 'Complete doing',
+      _id: new ObjectId("642c36e21068f52ea4770773")
+    },
+    {
+      text: 'Complete sprint 3',
+      _id: new ObjectId("642c36e21068f52ea4770774")
+    }
+  ],
+  done: [
+    {
+      text: 'complete Sprint 1',
+      _id: new ObjectId("642c36e21068f52ea4770775")
+    },
+    {
+      text: 'Complete Sprint 2',
+      _id: new ObjectId("642c36e21068f52ea4770776")
+    }
+  ],
+  doing: [
+    { text: 'Doing', _id: new ObjectId("642c36e21068f52ea4770777") },
+    { text: 'Testing', _id: new ObjectId("642c36e21068f52ea4770778") }
+  ],
+  _id: new ObjectId("6419048ffb42201f0d57dc74"),
+  __v: 6
+}
+[4/4/2023, 10:44:23 AM] server	 employee-route.js - {
+  _id: new ObjectId("6419048ffb42201f0d57dc74"),
+  empId: 1012,
+  done: [
+    {
+      text: 'complete Sprint 1',
+      _id: new ObjectId("642c36e21068f52ea4770775")
+    },
+    {
+      text: 'Complete Sprint 2',
+      _id: new ObjectId("642c36e21068f52ea4770776")
+    }
+  ],
+  todo: [
+    {
+      text: 'Complete doing',
+      _id: new ObjectId("642c36e21068f52ea4770773")
+    },
+    {
+      text: 'Complete sprint 3',
+      _id: new ObjectId("642c36e21068f52ea4770774")
+    }
+  ]
+}
+[4/4/2023, 10:54:29 AM] server	 employee-route.js - {
+  _id: new ObjectId("6419048ffb42201f0d57dc74"),
+  empId: 1012,
+  done: [
+    {
+      text: 'complete Sprint 1',
+      _id: new ObjectId("642c36e21068f52ea4770775")
+    },
+    {
+      text: 'Complete Sprint 2',
+      _id: new ObjectId("642c36e21068f52ea4770776")
+    }
+  ],
+  todo: [
+    {
+      text: 'Complete doing',
+      _id: new ObjectId("642c36e21068f52ea4770773")
+    },
+    {
+      text: 'Complete sprint 3',
+      _id: new ObjectId("642c36e21068f52ea4770774")
+    }
+  ]
+}
+[4/4/2023, 10:54:38 AM] server	 employee-route.js - {
+  empId: 1012,
+  firstName: 'Philip',
+  lastName: 'Labonte',
+  todo: [
+    {
+      text: 'Complete doing',
+      _id: new ObjectId("642c3a2e09d755fb916c1dd6")
+    },
+    {
+      text: 'Complete sprint 3',
+      _id: new ObjectId("642c3a2e09d755fb916c1dd7")
+    }
+  ],
+  done: [
+    {
+      text: 'complete Sprint 1',
+      _id: new ObjectId("642c3a2e09d755fb916c1dd8")
+    },
+    {
+      text: 'Complete Sprint 2',
+      _id: new ObjectId("642c3a2e09d755fb916c1dd9")
+    }
+  ],
+  doing: [
+    { text: 'Doing', _id: new ObjectId("642c3a2e09d755fb916c1dda") },
+    { text: 'Testing', _id: new ObjectId("642c3a2e09d755fb916c1ddb") }
+  ],
+  _id: new ObjectId("6419048ffb42201f0d57dc74"),
+  __v: 7
+}
+[4/4/2023, 10:54:48 AM] server	 employee-route.js - {
+  _id: new ObjectId("6419048ffb42201f0d57dc74"),
+  empId: 1012,
+  done: [
+    {
+      text: 'complete Sprint 1',
+      _id: new ObjectId("642c3a2e09d755fb916c1dd8")
+    },
+    {
+      text: 'Complete Sprint 2',
+      _id: new ObjectId("642c3a2e09d755fb916c1dd9")
+    }
+  ],
+  todo: [
+    {
+      text: 'Complete doing',
+      _id: new ObjectId("642c3a2e09d755fb916c1dd6")
+    },
+    {
+      text: 'Complete sprint 3',
+      _id: new ObjectId("642c3a2e09d755fb916c1dd7")
+    }
+  ]
+}
+[4/4/2023, 10:57:38 AM] server	 employee-route.js - {
+  _id: new ObjectId("6419048ffb42201f0d57dc74"),
+  empId: 1012,
+  done: [
+    {
+      text: 'complete Sprint 1',
+      _id: new ObjectId("642c3a2e09d755fb916c1dd8")
+    },
+    {
+      text: 'Complete Sprint 2',
+      _id: new ObjectId("642c3a2e09d755fb916c1dd9")
+    }
+  ],
+  todo: [
+    {
+      text: 'Complete doing',
+      _id: new ObjectId("642c3a2e09d755fb916c1dd6")
+    },
+    {
+      text: 'Complete sprint 3',
+      _id: new ObjectId("642c3a2e09d755fb916c1dd7")
+    }
+  ]
+}
+[4/4/2023, 11:00:18 AM] server	 employee-route.js - {
+  empId: 1011,
+  firstName: 'Noah',
+  lastName: 'Sebastian',
+  todo: [
+    {
+      text: 'Complete Doing',
+      _id: new ObjectId("642c3b8209d755fb916c1deb")
+    },
+    {
+      text: 'Complete Sprint 3',
+      _id: new ObjectId("642c3b8209d755fb916c1dec")
+    }
+  ],
+  done: [
+    {
+      text: 'Complete Sprint 1',
+      _id: new ObjectId("642c3b8209d755fb916c1ded")
+    },
+    {
+      text: 'Complete Sprint 2',
+      _id: new ObjectId("642c3b8209d755fb916c1dee")
+    }
+  ],
+  doing: [
+    { text: 'Doing', _id: new ObjectId("642c3b8209d755fb916c1def") },
+    { text: 'Testing', _id: new ObjectId("642c3b8209d755fb916c1df0") }
+  ],
+  _id: new ObjectId("64190447fb42201f0d57dc73"),
+  __v: 3
+}
+[4/4/2023, 11:00:41 AM] server	 employee-route.js - {
+  _id: new ObjectId("6419048ffb42201f0d57dc74"),
+  empId: 1012,
+  done: [
+    {
+      text: 'complete Sprint 1',
+      _id: new ObjectId("642c3a2e09d755fb916c1dd8")
+    },
+    {
+      text: 'Complete Sprint 2',
+      _id: new ObjectId("642c3a2e09d755fb916c1dd9")
+    }
+  ],
+  todo: [
+    {
+      text: 'Complete doing',
+      _id: new ObjectId("642c3a2e09d755fb916c1dd6")
+    },
+    {
+      text: 'Complete sprint 3',
+      _id: new ObjectId("642c3a2e09d755fb916c1dd7")
+    }
+  ]
+}
+[4/4/2023, 11:01:10 AM] server	 employee-route.js - {
+  _id: new ObjectId("64190447fb42201f0d57dc73"),
+  empId: 1011,
+  done: [
+    {
+      text: 'Complete Sprint 1',
+      _id: new ObjectId("642c3b8209d755fb916c1ded")
+    },
+    {
+      text: 'Complete Sprint 2',
+      _id: new ObjectId("642c3b8209d755fb916c1dee")
+    }
+  ],
+  todo: [
+    {
+      text: 'Complete Doing',
+      _id: new ObjectId("642c3b8209d755fb916c1deb")
+    },
+    {
+      text: 'Complete Sprint 3',
+      _id: new ObjectId("642c3b8209d755fb916c1dec")
+    }
+  ]
+}
+[4/4/2023, 11:09:21 AM] server	 employee-route.js - {
+  _id: new ObjectId("64190447fb42201f0d57dc73"),
+  empId: 1011,
+  done: [
+    {
+      text: 'Complete Sprint 1',
+      _id: new ObjectId("642c3b8209d755fb916c1ded")
+    },
+    {
+      text: 'Complete Sprint 2',
+      _id: new ObjectId("642c3b8209d755fb916c1dee")
+    }
+  ],
+  todo: [
+    {
+      text: 'Complete Doing',
+      _id: new ObjectId("642c3b8209d755fb916c1deb")
+    },
+    {
+      text: 'Complete Sprint 3',
+      _id: new ObjectId("642c3b8209d755fb916c1dec")
+    }
+  ]
+}
+[4/4/2023, 11:13:22 AM] server	 employee-route.js - {
+  empId: 1011,
+  firstName: 'Noah',
+  lastName: 'Sebastian',
+  todo: [
+    {
+      text: 'Complete Doing',
+      _id: new ObjectId("642c3e92f1fe3e2d139e2919")
+    },
+    {
+      text: 'Complete Sprint 3',
+      _id: new ObjectId("642c3e92f1fe3e2d139e291a")
+    }
+  ],
+  done: [
+    {
+      text: 'Complete Sprint 1',
+      _id: new ObjectId("642c3e92f1fe3e2d139e291b")
+    },
+    {
+      text: 'Complete Sprint 2',
+      _id: new ObjectId("642c3e92f1fe3e2d139e291c")
+    }
+  ],
+  doing: [
+    { text: 'Doing', _id: new ObjectId("642c3e92f1fe3e2d139e291d") },
+    { text: 'Testing', _id: new ObjectId("642c3e92f1fe3e2d139e291e") }
+  ],
+  _id: new ObjectId("64190447fb42201f0d57dc73"),
+  __v: 4
+}
+[4/4/2023, 11:13:39 AM] server	 employee-route.js - {
+  _id: new ObjectId("64190447fb42201f0d57dc73"),
+  empId: 1011,
+  done: [
+    {
+      text: 'Complete Sprint 1',
+      _id: new ObjectId("642c3e92f1fe3e2d139e291b")
+    },
+    {
+      text: 'Complete Sprint 2',
+      _id: new ObjectId("642c3e92f1fe3e2d139e291c")
+    }
+  ],
+  todo: [
+    {
+      text: 'Complete Doing',
+      _id: new ObjectId("642c3e92f1fe3e2d139e2919")
+    },
+    {
+      text: 'Complete Sprint 3',
+      _id: new ObjectId("642c3e92f1fe3e2d139e291a")
+    }
+  ]
+}
+[4/4/2023, 11:35:05 AM] server	 employee-route.js - {
+  empId: 1011,
+  firstName: 'Noah',
+  lastName: 'Sebastian',
+  todo: [
+    {
+      text: 'Complete Doing',
+      _id: new ObjectId("642c43a9f1fe3e2d139e293a")
+    },
+    {
+      text: 'Complete Sprint 3',
+      _id: new ObjectId("642c43a9f1fe3e2d139e293b")
+    }
+  ],
+  done: [
+    {
+      text: 'Complete Sprint 1',
+      _id: new ObjectId("642c43a9f1fe3e2d139e293c")
+    },
+    {
+      text: 'Complete Sprint 2',
+      _id: new ObjectId("642c43a9f1fe3e2d139e293d")
+    }
+  ],
+  doing: [
+    { text: 'Doing', _id: new ObjectId("642c43a9f1fe3e2d139e293e") },
+    { text: 'Testing', _id: new ObjectId("642c43a9f1fe3e2d139e293f") }
+  ],
+  _id: new ObjectId("64190447fb42201f0d57dc73"),
+  __v: 5
+}
+[4/4/2023, 11:41:42 AM] server	 employee-route.js - {
+  _id: new ObjectId("64190447fb42201f0d57dc73"),
+  empId: 1011,
+  done: [
+    {
+      text: 'Complete Sprint 1',
+      _id: new ObjectId("642c43a9f1fe3e2d139e293c")
+    },
+    {
+      text: 'Complete Sprint 2',
+      _id: new ObjectId("642c43a9f1fe3e2d139e293d")
+    }
+  ],
+  todo: [
+    {
+      text: 'Complete Doing',
+      _id: new ObjectId("642c43a9f1fe3e2d139e293a")
+    },
+    {
+      text: 'Complete Sprint 3',
+      _id: new ObjectId("642c43a9f1fe3e2d139e293b")
+    }
+  ]
+}
+[4/4/2023, 12:00:36 PM] server	 employee-route.js - {
+  empId: 1010,
+  firstName: 'Chris',
+  lastName: 'Motionless',
+  todo: [
+    {
+      text: 'Complete doing',
+      _id: new ObjectId("642c49a402da40faffd9b430")
+    },
+    {
+      text: 'Complete sprint 3',
+      _id: new ObjectId("642c49a402da40faffd9b431")
+    }
+  ],
+  done: [
+    {
+      text: 'complete Sprint 1',
+      _id: new ObjectId("642c49a402da40faffd9b432")
+    },
+    {
+      text: 'Complete Sprint 2',
+      _id: new ObjectId("642c49a402da40faffd9b433")
+    }
+  ],
+  doing: [
+    { text: 'Doing', _id: new ObjectId("642c49a402da40faffd9b434") },
+    { text: 'Testing', _id: new ObjectId("642c49a402da40faffd9b435") }
+  ],
+  _id: new ObjectId("6419041bfb42201f0d57dc72"),
+  __v: 1
+}
+[4/4/2023, 12:01:31 PM] server	 employee-route.js - {
+  _id: new ObjectId("6419041bfb42201f0d57dc72"),
+  empId: 1010,
+  done: [
+    {
+      text: 'complete Sprint 1',
+      _id: new ObjectId("642c49a402da40faffd9b432")
+    },
+    {
+      text: 'Complete Sprint 2',
+      _id: new ObjectId("642c49a402da40faffd9b433")
+    }
+  ],
+  todo: [
+    {
+      text: 'Complete doing',
+      _id: new ObjectId("642c49a402da40faffd9b430")
+    },
+    {
+      text: 'Complete sprint 3',
+      _id: new ObjectId("642c49a402da40faffd9b431")
+    }
+  ]
+}
+[4/4/2023, 12:03:27 PM] server	 employee-route.js - {
+  _id: new ObjectId("6419041bfb42201f0d57dc72"),
+  empId: 1010,
+  done: [
+    {
+      text: 'complete Sprint 1',
+      _id: new ObjectId("642c49a402da40faffd9b432")
+    },
+    {
+      text: 'Complete Sprint 2',
+      _id: new ObjectId("642c49a402da40faffd9b433")
+    }
+  ],
+  todo: [
+    {
+      text: 'Complete doing',
+      _id: new ObjectId("642c49a402da40faffd9b430")
+    },
+    {
+      text: 'Complete sprint 3',
+      _id: new ObjectId("642c49a402da40faffd9b431")
+    }
+  ]
+}
+[4/4/2023, 12:05:12 PM] server	 employee-route.js - {
+  _id: new ObjectId("64190447fb42201f0d57dc73"),
+  empId: 1011,
+  done: [
+    {
+      text: 'Complete Sprint 1',
+      _id: new ObjectId("642c43a9f1fe3e2d139e293c")
+    },
+    {
+      text: 'Complete Sprint 2',
+      _id: new ObjectId("642c43a9f1fe3e2d139e293d")
+    }
+  ],
+  todo: [
+    {
+      text: 'Complete Doing',
+      _id: new ObjectId("642c43a9f1fe3e2d139e293a")
+    },
+    {
+      text: 'Complete Sprint 3',
+      _id: new ObjectId("642c43a9f1fe3e2d139e293b")
+    }
+  ]
+}
+[4/4/2023, 12:06:06 PM] server	 employee-route.js - {
+  _id: new ObjectId("6419041bfb42201f0d57dc72"),
+  empId: 1010,
+  doing: [
+    { text: 'Doing', _id: new ObjectId("642c49a402da40faffd9b434") },
+    { text: 'Testing', _id: new ObjectId("642c49a402da40faffd9b435") }
+  ],
+  done: [
+    {
+      text: 'complete Sprint 1',
+      _id: new ObjectId("642c49a402da40faffd9b432")
+    },
+    {
+      text: 'Complete Sprint 2',
+      _id: new ObjectId("642c49a402da40faffd9b433")
+    }
+  ],
+  todo: [
+    {
+      text: 'Complete doing',
+      _id: new ObjectId("642c49a402da40faffd9b430")
+    },
+    {
+      text: 'Complete sprint 3',
+      _id: new ObjectId("642c49a402da40faffd9b431")
+    }
+  ]
+}
+[4/4/2023, 12:09:32 PM] server	 employee-route.js - {
+  _id: new ObjectId("64190447fb42201f0d57dc73"),
+  empId: 1011,
+  done: [
+    {
+      text: 'Complete Sprint 1',
+      _id: new ObjectId("642c43a9f1fe3e2d139e293c")
+    },
+    {
+      text: 'Complete Sprint 2',
+      _id: new ObjectId("642c43a9f1fe3e2d139e293d")
+    }
+  ],
+  todo: [
+    {
+      text: 'Complete Doing',
+      _id: new ObjectId("642c43a9f1fe3e2d139e293a")
+    },
+    {
+      text: 'Complete Sprint 3',
+      _id: new ObjectId("642c43a9f1fe3e2d139e293b")
+    }
+  ],
+  doing: [
+    { text: 'Doing', _id: new ObjectId("642c43a9f1fe3e2d139e293e") },
+    { text: 'Testing', _id: new ObjectId("642c43a9f1fe3e2d139e293f") }
+  ]
+}
+[4/4/2023, 12:09:46 PM] server	 employee-route.js - {
+  _id: new ObjectId("6419048ffb42201f0d57dc74"),
+  empId: 1012,
+  done: [
+    {
+      text: 'complete Sprint 1',
+      _id: new ObjectId("642c3a2e09d755fb916c1dd8")
+    },
+    {
+      text: 'Complete Sprint 2',
+      _id: new ObjectId("642c3a2e09d755fb916c1dd9")
+    }
+  ],
+  todo: [
+    {
+      text: 'Complete doing',
+      _id: new ObjectId("642c3a2e09d755fb916c1dd6")
+    },
+    {
+      text: 'Complete sprint 3',
+      _id: new ObjectId("642c3a2e09d755fb916c1dd7")
+    }
+  ],
+  doing: [
+    { text: 'Doing', _id: new ObjectId("642c3a2e09d755fb916c1dda") },
+    { text: 'Testing', _id: new ObjectId("642c3a2e09d755fb916c1ddb") }
+  ]
+}
+[4/4/2023, 12:24:06 PM] server	 employee-route.js - {
+  _id: new ObjectId("641903acfb42201f0d57dc6f"),
+  empId: 1008,
+  firstName: 'David',
+  lastName: 'Draiman',
+  __v: 1,
+  done: [],
+  todo: [
+    {
+      text: 'push code to github',
+      _id: new ObjectId("6422637aeb556747be9aa36c")
+    }
+  ],
+  doing: []
+}
+[4/4/2023, 12:24:06 PM] server	 employee-route.js - {
+  _id: new ObjectId("641903acfb42201f0d57dc6f"),
+  empId: 1008,
+  done: [],
+  todo: [
+    {
+      text: 'push code to github',
+      _id: new ObjectId("6422637aeb556747be9aa36c")
+    }
+  ],
+  doing: []
+}
+[4/4/2023, 12:24:32 PM] server	 employee-route.js - {
+  _id: new ObjectId("64190447fb42201f0d57dc73"),
+  empId: 1011,
+  firstName: 'Noah',
+  lastName: 'Sebastian',
+  __v: 5,
+  done: [
+    {
+      text: 'Complete Sprint 1',
+      _id: new ObjectId("642c43a9f1fe3e2d139e293c")
+    },
+    {
+      text: 'Complete Sprint 2',
+      _id: new ObjectId("642c43a9f1fe3e2d139e293d")
+    }
+  ],
+  todo: [
+    {
+      text: 'Complete Doing',
+      _id: new ObjectId("642c43a9f1fe3e2d139e293a")
+    },
+    {
+      text: 'Complete Sprint 3',
+      _id: new ObjectId("642c43a9f1fe3e2d139e293b")
+    }
+  ],
+  doing: [
+    { text: 'Doing', _id: new ObjectId("642c43a9f1fe3e2d139e293e") },
+    { text: 'Testing', _id: new ObjectId("642c43a9f1fe3e2d139e293f") }
+  ]
+}
+[4/4/2023, 12:24:32 PM] server	 employee-route.js - {
+  _id: new ObjectId("64190447fb42201f0d57dc73"),
+  empId: 1011,
+  done: [
+    {
+      text: 'Complete Sprint 1',
+      _id: new ObjectId("642c43a9f1fe3e2d139e293c")
+    },
+    {
+      text: 'Complete Sprint 2',
+      _id: new ObjectId("642c43a9f1fe3e2d139e293d")
+    }
+  ],
+  todo: [
+    {
+      text: 'Complete Doing',
+      _id: new ObjectId("642c43a9f1fe3e2d139e293a")
+    },
+    {
+      text: 'Complete Sprint 3',
+      _id: new ObjectId("642c43a9f1fe3e2d139e293b")
+    }
+  ],
+  doing: [
+    { text: 'Doing', _id: new ObjectId("642c43a9f1fe3e2d139e293e") },
+    { text: 'Testing', _id: new ObjectId("642c43a9f1fe3e2d139e293f") }
+  ]
+}
+[4/4/2023, 12:25:19 PM] server	 employee-route.js - {
+  _id: new ObjectId("64190447fb42201f0d57dc73"),
+  empId: 1011,
+  done: [
+    {
+      text: 'Complete Sprint 1',
+      _id: new ObjectId("642c43a9f1fe3e2d139e293c")
+    },
+    {
+      text: 'Complete Sprint 2',
+      _id: new ObjectId("642c43a9f1fe3e2d139e293d")
+    }
+  ],
+  todo: [
+    {
+      text: 'Complete Doing',
+      _id: new ObjectId("642c43a9f1fe3e2d139e293a")
+    },
+    {
+      text: 'Complete Sprint 3',
+      _id: new ObjectId("642c43a9f1fe3e2d139e293b")
+    }
+  ],
+  doing: [
+    { text: 'Doing', _id: new ObjectId("642c43a9f1fe3e2d139e293e") },
+    { text: 'Testing', _id: new ObjectId("642c43a9f1fe3e2d139e293f") }
+  ]
+}
+[4/4/2023, 12:25:25 PM] server	 employee-route.js - {
+  _id: new ObjectId("64190447fb42201f0d57dc73"),
+  empId: 1011,
+  done: [
+    {
+      text: 'Complete Sprint 1',
+      _id: new ObjectId("642c43a9f1fe3e2d139e293c")
+    },
+    {
+      text: 'Complete Sprint 2',
+      _id: new ObjectId("642c43a9f1fe3e2d139e293d")
+    }
+  ],
+  todo: [
+    {
+      text: 'Complete Doing',
+      _id: new ObjectId("642c43a9f1fe3e2d139e293a")
+    },
+    {
+      text: 'Complete Sprint 3',
+      _id: new ObjectId("642c43a9f1fe3e2d139e293b")
+    }
+  ],
+  doing: [
+    { text: 'Doing', _id: new ObjectId("642c43a9f1fe3e2d139e293e") },
+    { text: 'Testing', _id: new ObjectId("642c43a9f1fe3e2d139e293f") }
+  ]
+}
+[4/4/2023, 12:38:32 PM] server	 employee-route.js - {
+  _id: new ObjectId("64190447fb42201f0d57dc73"),
+  empId: 1011,
+  done: [
+    {
+      text: 'Complete Sprint 1',
+      _id: new ObjectId("642c43a9f1fe3e2d139e293c")
+    },
+    {
+      text: 'Complete Sprint 2',
+      _id: new ObjectId("642c43a9f1fe3e2d139e293d")
+    }
+  ],
+  todo: [
+    {
+      text: 'Complete Doing',
+      _id: new ObjectId("642c43a9f1fe3e2d139e293a")
+    },
+    {
+      text: 'Complete Sprint 3',
+      _id: new ObjectId("642c43a9f1fe3e2d139e293b")
+    }
+  ],
+  doing: [
+    { text: 'Doing', _id: new ObjectId("642c43a9f1fe3e2d139e293e") },
+    { text: 'Testing', _id: new ObjectId("642c43a9f1fe3e2d139e293f") }
+  ]
+}
+[4/4/2023, 12:39:06 PM] server	 employee-route.js - {
+  _id: new ObjectId("64190447fb42201f0d57dc73"),
+  empId: 1011,
+  firstName: 'Noah',
+  lastName: 'Sebastian',
+  __v: 6,
+  done: [
+    {
+      text: 'Complete Sprint 1',
+      _id: new ObjectId("642c43a9f1fe3e2d139e293c")
+    },
+    {
+      text: 'Complete Sprint 2',
+      _id: new ObjectId("642c43a9f1fe3e2d139e293d")
+    }
+  ],
+  todo: [
+    {
+      text: 'Complete Sprint 3',
+      _id: new ObjectId("642c43a9f1fe3e2d139e293b")
+    }
+  ],
+  doing: [
+    { text: 'Doing', _id: new ObjectId("642c43a9f1fe3e2d139e293e") },
+    { text: 'Testing', _id: new ObjectId("642c43a9f1fe3e2d139e293f") }
+  ]
+}
+[4/4/2023, 12:39:24 PM] server	 employee-route.js - {
+  _id: new ObjectId("64190447fb42201f0d57dc73"),
+  empId: 1011,
+  done: [
+    {
+      text: 'Complete Sprint 1',
+      _id: new ObjectId("642c43a9f1fe3e2d139e293c")
+    },
+    {
+      text: 'Complete Sprint 2',
+      _id: new ObjectId("642c43a9f1fe3e2d139e293d")
+    }
+  ],
+  todo: [
+    {
+      text: 'Complete Sprint 3',
+      _id: new ObjectId("642c43a9f1fe3e2d139e293b")
+    }
+  ],
+  doing: [
+    { text: 'Doing', _id: new ObjectId("642c43a9f1fe3e2d139e293e") },
+    { text: 'Testing', _id: new ObjectId("642c43a9f1fe3e2d139e293f") }
+  ]
+}
+[4/4/2023, 12:40:28 PM] server	 employee-route.js - {
+  _id: new ObjectId("64190447fb42201f0d57dc73"),
+  empId: 1011,
+  done: [
+    {
+      text: 'Complete Sprint 1',
+      _id: new ObjectId("642c43a9f1fe3e2d139e293c")
+    },
+    {
+      text: 'Complete Sprint 2',
+      _id: new ObjectId("642c43a9f1fe3e2d139e293d")
+    }
+  ],
+  todo: [
+    {
+      text: 'Complete Sprint 3',
+      _id: new ObjectId("642c43a9f1fe3e2d139e293b")
+    }
+  ],
+  doing: [
+    { text: 'Doing', _id: new ObjectId("642c43a9f1fe3e2d139e293e") },
+    { text: 'Testing', _id: new ObjectId("642c43a9f1fe3e2d139e293f") }
+  ]
+}
+[4/4/2023, 12:45:19 PM] server	 employee-route.js - {
+  _id: new ObjectId("64190447fb42201f0d57dc73"),
+  empId: 1011,
+  firstName: 'Noah',
+  lastName: 'Sebastian',
+  __v: 7,
+  done: [
+    {
+      text: 'Complete Sprint 1',
+      _id: new ObjectId("642c43a9f1fe3e2d139e293c")
+    },
+    {
+      text: 'Complete Sprint 2',
+      _id: new ObjectId("642c43a9f1fe3e2d139e293d")
+    }
+  ],
+  todo: [
+    {
+      text: 'Complete Sprint 3',
+      _id: new ObjectId("642c43a9f1fe3e2d139e293b")
+    }
+  ],
+  doing: [
+    { text: 'Testing', _id: new ObjectId("642c43a9f1fe3e2d139e293f") }
+  ]
+}
+[4/4/2023, 12:45:25 PM] server	 employee-route.js - {
+  _id: new ObjectId("64190447fb42201f0d57dc73"),
+  empId: 1011,
+  done: [
+    {
+      text: 'Complete Sprint 1',
+      _id: new ObjectId("642c43a9f1fe3e2d139e293c")
+    },
+    {
+      text: 'Complete Sprint 2',
+      _id: new ObjectId("642c43a9f1fe3e2d139e293d")
+    }
+  ],
+  todo: [
+    {
+      text: 'Complete Sprint 3',
+      _id: new ObjectId("642c43a9f1fe3e2d139e293b")
+    }
+  ],
+  doing: [
+    { text: 'Testing', _id: new ObjectId("642c43a9f1fe3e2d139e293f") }
+  ]
+}

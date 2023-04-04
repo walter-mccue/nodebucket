@@ -31,3 +31,6 @@
 [4/4/2023, 12:05:05 AM] server	 employee-route.js - Bad Request. Unable to verify req.body schema against tasksSchema
 [4/4/2023, 12:09:02 AM] server	 employee-route.js - NotFoundError: Not Found
 [4/4/2023, 12:09:34 AM] server	 employee-route.js - TaskId not found 642ba0c0ccc7542f564fc218
+[4/4/2023, 11:34:50 AM] server	 employee-route.js - Bad Request. Unable to verify req.body schema against tasksSchema
+[4/4/2023, 11:34:58 AM] server	 employee-route.js - Bad Request. Unable to verify req.body schema against tasksSchema
+[4/4/2023, 12:00:18 PM] server	 employee-route.js - Bad Request. Unable to verify req.body schema against tasksSchema

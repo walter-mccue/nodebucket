@@ -71,13 +71,13 @@
 </div>
 
 <div fxLayout class="main-container">
-  
+
   <!-- Todo and Done Columns -->
   <div fxFlex class="flex-container">
 
-    <div class="task-container content-container">
+    <!-- ToDo Column -->
+    <div class="task-container list-container">
 
-      <!-- ToDo Column -->
       <mat-card class="mat-elevation-z0 task-gap">
 
         <mat-card-title>ToDo</mat-card-title>
@@ -86,7 +86,37 @@
 
           <div class="task-column">
             <div *ngFor="let item of todo">
-              <mat-card class="mat-elevation-z0">
+              <mat-card class="mat-elevation-z0 task-card">
+                <mat-card-content>
+                  <div fxLayout="row">
+                    <div fxFlex>
+                      {{ item.text }}
+                    </div>
+                    <!-- Delete Icon -->
+                  </div>
+
+                </mat-card-content>
+
+              </mat-card>
+            </div>
+
+          </div>
+        </mat-card-content>
+      </mat-card>
+    </div>
+
+    <!-- Doing Column -->
+    <div class="task-container list-container">
+
+      <mat-card class="mat-elevation-z0 task-gap">
+
+        <mat-card-title>Doing</mat-card-title>
+
+        <mat-card-content>
+
+          <div class="task-column">
+            <div *ngFor="let item of doing">
+              <mat-card class="mat-elevation-z0 task-card">
                 <mat-card-content>
                   <div fxLayout="row">
                     <div fxFlex>
@@ -106,7 +136,7 @@
     </div>
 
     <!-- Done Column -->
-    <div class=" task-container content-container">
+    <div class=" task-container list-container">
       <mat-card class="mat-elevation-z0">
 
         <mat-card-title>Done</mat-card-title>

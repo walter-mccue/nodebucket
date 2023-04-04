@@ -48,7 +48,7 @@ const taskSchema = {
 // Schema for Validation
 const tasksSchema = {
   type: 'object',
-  required: ['todo', 'done'],
+  required: ['todo', 'done', 'doing'],
   additionalProperties: false,
   properties: {
     todo: {
@@ -57,6 +57,11 @@ const tasksSchema = {
       items: taskSchema
     },
     done: {
+      type: 'array',
+      additionalProperties: false,
+      items: taskSchema
+    },
+    doing: {
       type: 'array',
       additionalProperties: false,
       items: taskSchema
@@ -181,7 +186,7 @@ router.get('/:empId/tasks', async(req, res, next) => {
     try {
 
       // If entered value is a number, uses findOne() to attempt to retrieve the empId from mongoDB
-      const emp = await Employee.findOne({'empId': empId}, 'empId todo done')
+      const emp = await Employee.findOne({'empId': empId}, 'empId todo done doing')
 
       // Successful Query
       if (emp) {
@@ -336,10 +341,13 @@ router.post('/:empId/tasks', async(req, res, next) => {
  *             required:
  *               - todo
  *               - done
+ *               - doing
  *             properties:
  *               todo:
  *                 type: array
  *               done:
+ *                 type: array
+ *               doing:
  *                 type: array
  *     responses:
  *       '204':
@@ -393,7 +401,8 @@ router.put('/:empId/tasks', async(req, res, next) => {
       // Successful task update
       emp.set({
         todo: req.body.todo,
-        done: req.body.done
+        done: req.body.done,
+        doing: req.body.doing
       })
       const result = await emp.save()
       console.log(result)
@@ -467,6 +476,7 @@ router.delete('/:empId/tasks/:taskId', async(req, res, next) => {
       // Variable to hold taskId from user input
       const todoTask = getTask(taskId, emp.todo)
       const doneTask = getTask(taskId, emp.done)
+      const doingTask = getTask(taskId, emp.doing)
 
       // Deletes the task from todo or done arrays
       if (todoTask !== undefined) {
@@ -475,9 +485,12 @@ router.delete('/:empId/tasks/:taskId', async(req, res, next) => {
       if (doneTask !== undefined) {
         emp.done.id(doneTask._id).remove()
       }
+      if (doingTask !== undefined) {
+        emp.doing.id(doingTask._id).remove()
+      }
 
       // If taskId does not exist, create 404 error
-      if (todoTask === undefined && doneTask === undefined) {
+      if (todoTask === undefined && doneTask === undefined && doingTask === undefined) {
         const err = Error('Not Found')
         err.status = 404
         console.error('TaskId not Found',  taskId)
