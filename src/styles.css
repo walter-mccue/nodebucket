@@ -8,6 +8,8 @@ Description: Global styling for the nodebucket project
 
 /* You can add global styles to this file, and also import other style files */
 
+@import url('https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap');
+
 html, body {
   height: 100%;
 }
@@ -71,6 +73,10 @@ body {
   width: 45%;
   margin: 2%;
   justify-items: center;
+}
+
+.metal-mania {
+  font-family: 'Metal Mania', cursive!important;
 }
 
 @media screen and (max-width: 800px) {

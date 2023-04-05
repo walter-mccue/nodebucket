@@ -7,12 +7,14 @@ Description: styling for the nodebucket project
 */
 
 .navbar-container {
-  padding: 1px;
+  padding: 30px;
 }
 
 .navbar-link {
-  font-size: 24px;
+  font-size: 32px;
   font-weight: bolder;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 .main-content {
@@ -53,6 +55,8 @@ Description: styling for the nodebucket project
 
     .mobile-toggle {
     display: block;
+    display: flex;
+    flex-direction: column;
   }
   .footer-content {
     padding-left: 0;
