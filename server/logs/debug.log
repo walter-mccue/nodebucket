@@ -12153,3 +12153,958 @@
     { text: 'Testing', _id: new ObjectId("642c43a9f1fe3e2d139e293f") }
   ]
 }
+[4/5/2023, 3:09:34 PM] server	 employee-route.js - {
+  _id: new ObjectId("6419041bfb42201f0d57dc72"),
+  empId: 1010,
+  firstName: 'Chris',
+  lastName: 'Motionless',
+  __v: 1,
+  doing: [
+    { text: 'Doing', _id: new ObjectId("642c49a402da40faffd9b434") },
+    { text: 'Testing', _id: new ObjectId("642c49a402da40faffd9b435") }
+  ],
+  done: [
+    {
+      text: 'complete Sprint 1',
+      _id: new ObjectId("642c49a402da40faffd9b432")
+    },
+    {
+      text: 'Complete Sprint 2',
+      _id: new ObjectId("642c49a402da40faffd9b433")
+    }
+  ],
+  todo: [
+    {
+      text: 'Complete doing',
+      _id: new ObjectId("642c49a402da40faffd9b430")
+    },
+    {
+      text: 'Complete sprint 3',
+      _id: new ObjectId("642c49a402da40faffd9b431")
+    }
+  ]
+}
+[4/5/2023, 3:09:34 PM] server	 employee-route.js - {
+  _id: new ObjectId("6419041bfb42201f0d57dc72"),
+  empId: 1010,
+  doing: [
+    { text: 'Doing', _id: new ObjectId("642c49a402da40faffd9b434") },
+    { text: 'Testing', _id: new ObjectId("642c49a402da40faffd9b435") }
+  ],
+  done: [
+    {
+      text: 'complete Sprint 1',
+      _id: new ObjectId("642c49a402da40faffd9b432")
+    },
+    {
+      text: 'Complete Sprint 2',
+      _id: new ObjectId("642c49a402da40faffd9b433")
+    }
+  ],
+  todo: [
+    {
+      text: 'Complete doing',
+      _id: new ObjectId("642c49a402da40faffd9b430")
+    },
+    {
+      text: 'Complete sprint 3',
+      _id: new ObjectId("642c49a402da40faffd9b431")
+    }
+  ]
+}
+[4/5/2023, 3:09:52 PM] server	 employee-route.js - {
+  _id: new ObjectId("6419041bfb42201f0d57dc72"),
+  empId: 1010,
+  doing: [
+    { text: 'Doing', _id: new ObjectId("642c49a402da40faffd9b434") },
+    { text: 'Testing', _id: new ObjectId("642c49a402da40faffd9b435") }
+  ],
+  done: [
+    {
+      text: 'complete Sprint 1',
+      _id: new ObjectId("642c49a402da40faffd9b432")
+    },
+    {
+      text: 'Complete Sprint 2',
+      _id: new ObjectId("642c49a402da40faffd9b433")
+    }
+  ],
+  todo: [
+    {
+      text: 'Complete doing',
+      _id: new ObjectId("642c49a402da40faffd9b430")
+    },
+    {
+      text: 'Complete sprint 3',
+      _id: new ObjectId("642c49a402da40faffd9b431")
+    }
+  ]
+}
+[4/5/2023, 3:09:59 PM] server	 employee-route.js - {
+  _id: new ObjectId("6419041bfb42201f0d57dc72"),
+  empId: 1010,
+  doing: [
+    { text: 'Doing', _id: new ObjectId("642c49a402da40faffd9b434") },
+    { text: 'Testing', _id: new ObjectId("642c49a402da40faffd9b435") }
+  ],
+  done: [
+    {
+      text: 'complete Sprint 1',
+      _id: new ObjectId("642c49a402da40faffd9b432")
+    },
+    {
+      text: 'Complete Sprint 2',
+      _id: new ObjectId("642c49a402da40faffd9b433")
+    }
+  ],
+  todo: [
+    {
+      text: 'Complete doing',
+      _id: new ObjectId("642c49a402da40faffd9b430")
+    },
+    {
+      text: 'Complete sprint 3',
+      _id: new ObjectId("642c49a402da40faffd9b431")
+    }
+  ]
+}
+[4/5/2023, 3:10:19 PM] server	 employee-route.js - {
+  _id: new ObjectId("6419041bfb42201f0d57dc72"),
+  empId: 1010,
+  doing: [
+    { text: 'Doing', _id: new ObjectId("642c49a402da40faffd9b434") },
+    { text: 'Testing', _id: new ObjectId("642c49a402da40faffd9b435") }
+  ],
+  done: [
+    {
+      text: 'complete Sprint 1',
+      _id: new ObjectId("642c49a402da40faffd9b432")
+    },
+    {
+      text: 'Complete Sprint 2',
+      _id: new ObjectId("642c49a402da40faffd9b433")
+    }
+  ],
+  todo: [
+    {
+      text: 'Complete doing',
+      _id: new ObjectId("642c49a402da40faffd9b430")
+    },
+    {
+      text: 'Complete sprint 3',
+      _id: new ObjectId("642c49a402da40faffd9b431")
+    }
+  ]
+}
+[4/5/2023, 3:10:21 PM] server	 employee-route.js - {
+  _id: new ObjectId("6419041bfb42201f0d57dc72"),
+  empId: 1010,
+  doing: [
+    { text: 'Doing', _id: new ObjectId("642c49a402da40faffd9b434") },
+    { text: 'Testing', _id: new ObjectId("642c49a402da40faffd9b435") }
+  ],
+  done: [
+    {
+      text: 'complete Sprint 1',
+      _id: new ObjectId("642c49a402da40faffd9b432")
+    },
+    {
+      text: 'Complete Sprint 2',
+      _id: new ObjectId("642c49a402da40faffd9b433")
+    }
+  ],
+  todo: [
+    {
+      text: 'Complete doing',
+      _id: new ObjectId("642c49a402da40faffd9b430")
+    },
+    {
+      text: 'Complete sprint 3',
+      _id: new ObjectId("642c49a402da40faffd9b431")
+    }
+  ]
+}
+[4/5/2023, 3:10:28 PM] server	 employee-route.js - {
+  _id: new ObjectId("6419041bfb42201f0d57dc72"),
+  empId: 1010,
+  doing: [
+    { text: 'Doing', _id: new ObjectId("642c49a402da40faffd9b434") },
+    { text: 'Testing', _id: new ObjectId("642c49a402da40faffd9b435") }
+  ],
+  done: [
+    {
+      text: 'complete Sprint 1',
+      _id: new ObjectId("642c49a402da40faffd9b432")
+    },
+    {
+      text: 'Complete Sprint 2',
+      _id: new ObjectId("642c49a402da40faffd9b433")
+    }
+  ],
+  todo: [
+    {
+      text: 'Complete doing',
+      _id: new ObjectId("642c49a402da40faffd9b430")
+    },
+    {
+      text: 'Complete sprint 3',
+      _id: new ObjectId("642c49a402da40faffd9b431")
+    }
+  ]
+}
+[4/5/2023, 3:10:30 PM] server	 employee-route.js - {
+  _id: new ObjectId("6419041bfb42201f0d57dc72"),
+  empId: 1010,
+  doing: [
+    { text: 'Doing', _id: new ObjectId("642c49a402da40faffd9b434") },
+    { text: 'Testing', _id: new ObjectId("642c49a402da40faffd9b435") }
+  ],
+  done: [
+    {
+      text: 'complete Sprint 1',
+      _id: new ObjectId("642c49a402da40faffd9b432")
+    },
+    {
+      text: 'Complete Sprint 2',
+      _id: new ObjectId("642c49a402da40faffd9b433")
+    }
+  ],
+  todo: [
+    {
+      text: 'Complete doing',
+      _id: new ObjectId("642c49a402da40faffd9b430")
+    },
+    {
+      text: 'Complete sprint 3',
+      _id: new ObjectId("642c49a402da40faffd9b431")
+    }
+  ]
+}
+[4/5/2023, 3:10:39 PM] server	 employee-route.js - {
+  _id: new ObjectId("6419041bfb42201f0d57dc72"),
+  empId: 1010,
+  doing: [
+    { text: 'Doing', _id: new ObjectId("642c49a402da40faffd9b434") },
+    { text: 'Testing', _id: new ObjectId("642c49a402da40faffd9b435") }
+  ],
+  done: [
+    {
+      text: 'complete Sprint 1',
+      _id: new ObjectId("642c49a402da40faffd9b432")
+    },
+    {
+      text: 'Complete Sprint 2',
+      _id: new ObjectId("642c49a402da40faffd9b433")
+    }
+  ],
+  todo: [
+    {
+      text: 'Complete doing',
+      _id: new ObjectId("642c49a402da40faffd9b430")
+    },
+    {
+      text: 'Complete sprint 3',
+      _id: new ObjectId("642c49a402da40faffd9b431")
+    }
+  ]
+}
+[4/5/2023, 3:10:41 PM] server	 employee-route.js - {
+  _id: new ObjectId("6419041bfb42201f0d57dc72"),
+  empId: 1010,
+  doing: [
+    { text: 'Doing', _id: new ObjectId("642c49a402da40faffd9b434") },
+    { text: 'Testing', _id: new ObjectId("642c49a402da40faffd9b435") }
+  ],
+  done: [
+    {
+      text: 'complete Sprint 1',
+      _id: new ObjectId("642c49a402da40faffd9b432")
+    },
+    {
+      text: 'Complete Sprint 2',
+      _id: new ObjectId("642c49a402da40faffd9b433")
+    }
+  ],
+  todo: [
+    {
+      text: 'Complete doing',
+      _id: new ObjectId("642c49a402da40faffd9b430")
+    },
+    {
+      text: 'Complete sprint 3',
+      _id: new ObjectId("642c49a402da40faffd9b431")
+    }
+  ]
+}
+[4/5/2023, 3:10:51 PM] server	 employee-route.js - {
+  _id: new ObjectId("6419041bfb42201f0d57dc72"),
+  empId: 1010,
+  doing: [
+    { text: 'Doing', _id: new ObjectId("642c49a402da40faffd9b434") },
+    { text: 'Testing', _id: new ObjectId("642c49a402da40faffd9b435") }
+  ],
+  done: [
+    {
+      text: 'complete Sprint 1',
+      _id: new ObjectId("642c49a402da40faffd9b432")
+    },
+    {
+      text: 'Complete Sprint 2',
+      _id: new ObjectId("642c49a402da40faffd9b433")
+    }
+  ],
+  todo: [
+    {
+      text: 'Complete doing',
+      _id: new ObjectId("642c49a402da40faffd9b430")
+    },
+    {
+      text: 'Complete sprint 3',
+      _id: new ObjectId("642c49a402da40faffd9b431")
+    }
+  ]
+}
+[4/5/2023, 3:10:52 PM] server	 employee-route.js - {
+  _id: new ObjectId("6419041bfb42201f0d57dc72"),
+  empId: 1010,
+  doing: [
+    { text: 'Doing', _id: new ObjectId("642c49a402da40faffd9b434") },
+    { text: 'Testing', _id: new ObjectId("642c49a402da40faffd9b435") }
+  ],
+  done: [
+    {
+      text: 'complete Sprint 1',
+      _id: new ObjectId("642c49a402da40faffd9b432")
+    },
+    {
+      text: 'Complete Sprint 2',
+      _id: new ObjectId("642c49a402da40faffd9b433")
+    }
+  ],
+  todo: [
+    {
+      text: 'Complete doing',
+      _id: new ObjectId("642c49a402da40faffd9b430")
+    },
+    {
+      text: 'Complete sprint 3',
+      _id: new ObjectId("642c49a402da40faffd9b431")
+    }
+  ]
+}
+[4/5/2023, 3:21:50 PM] server	 employee-route.js - {
+  _id: new ObjectId("6419041bfb42201f0d57dc72"),
+  empId: 1010,
+  doing: [
+    { text: 'Doing', _id: new ObjectId("642c49a402da40faffd9b434") },
+    { text: 'Testing', _id: new ObjectId("642c49a402da40faffd9b435") }
+  ],
+  done: [
+    {
+      text: 'complete Sprint 1',
+      _id: new ObjectId("642c49a402da40faffd9b432")
+    },
+    {
+      text: 'Complete Sprint 2',
+      _id: new ObjectId("642c49a402da40faffd9b433")
+    }
+  ],
+  todo: [
+    {
+      text: 'Complete doing',
+      _id: new ObjectId("642c49a402da40faffd9b430")
+    },
+    {
+      text: 'Complete sprint 3',
+      _id: new ObjectId("642c49a402da40faffd9b431")
+    }
+  ]
+}
+[4/5/2023, 3:26:38 PM] server	 employee-route.js - {
+  _id: new ObjectId("6419041bfb42201f0d57dc72"),
+  empId: 1010,
+  doing: [
+    { text: 'Doing', _id: new ObjectId("642c49a402da40faffd9b434") },
+    { text: 'Testing', _id: new ObjectId("642c49a402da40faffd9b435") }
+  ],
+  done: [
+    {
+      text: 'complete Sprint 1',
+      _id: new ObjectId("642c49a402da40faffd9b432")
+    },
+    {
+      text: 'Complete Sprint 2',
+      _id: new ObjectId("642c49a402da40faffd9b433")
+    }
+  ],
+  todo: [
+    {
+      text: 'Complete doing',
+      _id: new ObjectId("642c49a402da40faffd9b430")
+    },
+    {
+      text: 'Complete sprint 3',
+      _id: new ObjectId("642c49a402da40faffd9b431")
+    }
+  ]
+}
+[4/5/2023, 3:26:40 PM] server	 employee-route.js - {
+  _id: new ObjectId("6419041bfb42201f0d57dc72"),
+  empId: 1010,
+  doing: [
+    { text: 'Doing', _id: new ObjectId("642c49a402da40faffd9b434") },
+    { text: 'Testing', _id: new ObjectId("642c49a402da40faffd9b435") }
+  ],
+  done: [
+    {
+      text: 'complete Sprint 1',
+      _id: new ObjectId("642c49a402da40faffd9b432")
+    },
+    {
+      text: 'Complete Sprint 2',
+      _id: new ObjectId("642c49a402da40faffd9b433")
+    }
+  ],
+  todo: [
+    {
+      text: 'Complete doing',
+      _id: new ObjectId("642c49a402da40faffd9b430")
+    },
+    {
+      text: 'Complete sprint 3',
+      _id: new ObjectId("642c49a402da40faffd9b431")
+    }
+  ]
+}
+[4/5/2023, 3:26:42 PM] server	 employee-route.js - {
+  _id: new ObjectId("6419041bfb42201f0d57dc72"),
+  empId: 1010,
+  doing: [
+    { text: 'Doing', _id: new ObjectId("642c49a402da40faffd9b434") },
+    { text: 'Testing', _id: new ObjectId("642c49a402da40faffd9b435") }
+  ],
+  done: [
+    {
+      text: 'complete Sprint 1',
+      _id: new ObjectId("642c49a402da40faffd9b432")
+    },
+    {
+      text: 'Complete Sprint 2',
+      _id: new ObjectId("642c49a402da40faffd9b433")
+    }
+  ],
+  todo: [
+    {
+      text: 'Complete doing',
+      _id: new ObjectId("642c49a402da40faffd9b430")
+    },
+    {
+      text: 'Complete sprint 3',
+      _id: new ObjectId("642c49a402da40faffd9b431")
+    }
+  ]
+}
+[4/5/2023, 3:26:45 PM] server	 employee-route.js - {
+  _id: new ObjectId("6419041bfb42201f0d57dc72"),
+  empId: 1010,
+  doing: [
+    { text: 'Doing', _id: new ObjectId("642c49a402da40faffd9b434") },
+    { text: 'Testing', _id: new ObjectId("642c49a402da40faffd9b435") }
+  ],
+  done: [
+    {
+      text: 'complete Sprint 1',
+      _id: new ObjectId("642c49a402da40faffd9b432")
+    },
+    {
+      text: 'Complete Sprint 2',
+      _id: new ObjectId("642c49a402da40faffd9b433")
+    }
+  ],
+  todo: [
+    {
+      text: 'Complete doing',
+      _id: new ObjectId("642c49a402da40faffd9b430")
+    },
+    {
+      text: 'Complete sprint 3',
+      _id: new ObjectId("642c49a402da40faffd9b431")
+    }
+  ]
+}
+[4/5/2023, 3:26:47 PM] server	 employee-route.js - {
+  _id: new ObjectId("6419041bfb42201f0d57dc72"),
+  empId: 1010,
+  doing: [
+    { text: 'Doing', _id: new ObjectId("642c49a402da40faffd9b434") },
+    { text: 'Testing', _id: new ObjectId("642c49a402da40faffd9b435") }
+  ],
+  done: [
+    {
+      text: 'complete Sprint 1',
+      _id: new ObjectId("642c49a402da40faffd9b432")
+    },
+    {
+      text: 'Complete Sprint 2',
+      _id: new ObjectId("642c49a402da40faffd9b433")
+    }
+  ],
+  todo: [
+    {
+      text: 'Complete doing',
+      _id: new ObjectId("642c49a402da40faffd9b430")
+    },
+    {
+      text: 'Complete sprint 3',
+      _id: new ObjectId("642c49a402da40faffd9b431")
+    }
+  ]
+}
+[4/5/2023, 3:26:53 PM] server	 employee-route.js - {
+  _id: new ObjectId("6419041bfb42201f0d57dc72"),
+  empId: 1010,
+  doing: [
+    { text: 'Doing', _id: new ObjectId("642c49a402da40faffd9b434") },
+    { text: 'Testing', _id: new ObjectId("642c49a402da40faffd9b435") }
+  ],
+  done: [
+    {
+      text: 'complete Sprint 1',
+      _id: new ObjectId("642c49a402da40faffd9b432")
+    },
+    {
+      text: 'Complete Sprint 2',
+      _id: new ObjectId("642c49a402da40faffd9b433")
+    }
+  ],
+  todo: [
+    {
+      text: 'Complete doing',
+      _id: new ObjectId("642c49a402da40faffd9b430")
+    },
+    {
+      text: 'Complete sprint 3',
+      _id: new ObjectId("642c49a402da40faffd9b431")
+    }
+  ]
+}
+[4/5/2023, 3:27:45 PM] server	 employee-route.js - {
+  _id: new ObjectId("6419041bfb42201f0d57dc72"),
+  empId: 1010,
+  doing: [
+    { text: 'Doing', _id: new ObjectId("642c49a402da40faffd9b434") },
+    { text: 'Testing', _id: new ObjectId("642c49a402da40faffd9b435") }
+  ],
+  done: [
+    {
+      text: 'complete Sprint 1',
+      _id: new ObjectId("642c49a402da40faffd9b432")
+    },
+    {
+      text: 'Complete Sprint 2',
+      _id: new ObjectId("642c49a402da40faffd9b433")
+    }
+  ],
+  todo: [
+    {
+      text: 'Complete doing',
+      _id: new ObjectId("642c49a402da40faffd9b430")
+    },
+    {
+      text: 'Complete sprint 3',
+      _id: new ObjectId("642c49a402da40faffd9b431")
+    }
+  ]
+}
+[4/5/2023, 3:27:46 PM] server	 employee-route.js - {
+  _id: new ObjectId("6419041bfb42201f0d57dc72"),
+  empId: 1010,
+  doing: [
+    { text: 'Doing', _id: new ObjectId("642c49a402da40faffd9b434") },
+    { text: 'Testing', _id: new ObjectId("642c49a402da40faffd9b435") }
+  ],
+  done: [
+    {
+      text: 'complete Sprint 1',
+      _id: new ObjectId("642c49a402da40faffd9b432")
+    },
+    {
+      text: 'Complete Sprint 2',
+      _id: new ObjectId("642c49a402da40faffd9b433")
+    }
+  ],
+  todo: [
+    {
+      text: 'Complete doing',
+      _id: new ObjectId("642c49a402da40faffd9b430")
+    },
+    {
+      text: 'Complete sprint 3',
+      _id: new ObjectId("642c49a402da40faffd9b431")
+    }
+  ]
+}
+[4/5/2023, 3:27:54 PM] server	 employee-route.js - {
+  _id: new ObjectId("6419041bfb42201f0d57dc72"),
+  empId: 1010,
+  doing: [
+    { text: 'Doing', _id: new ObjectId("642c49a402da40faffd9b434") },
+    { text: 'Testing', _id: new ObjectId("642c49a402da40faffd9b435") }
+  ],
+  done: [
+    {
+      text: 'complete Sprint 1',
+      _id: new ObjectId("642c49a402da40faffd9b432")
+    },
+    {
+      text: 'Complete Sprint 2',
+      _id: new ObjectId("642c49a402da40faffd9b433")
+    }
+  ],
+  todo: [
+    {
+      text: 'Complete doing',
+      _id: new ObjectId("642c49a402da40faffd9b430")
+    },
+    {
+      text: 'Complete sprint 3',
+      _id: new ObjectId("642c49a402da40faffd9b431")
+    }
+  ]
+}
+[4/5/2023, 3:27:56 PM] server	 employee-route.js - {
+  _id: new ObjectId("6419041bfb42201f0d57dc72"),
+  empId: 1010,
+  doing: [
+    { text: 'Doing', _id: new ObjectId("642c49a402da40faffd9b434") },
+    { text: 'Testing', _id: new ObjectId("642c49a402da40faffd9b435") }
+  ],
+  done: [
+    {
+      text: 'complete Sprint 1',
+      _id: new ObjectId("642c49a402da40faffd9b432")
+    },
+    {
+      text: 'Complete Sprint 2',
+      _id: new ObjectId("642c49a402da40faffd9b433")
+    }
+  ],
+  todo: [
+    {
+      text: 'Complete doing',
+      _id: new ObjectId("642c49a402da40faffd9b430")
+    },
+    {
+      text: 'Complete sprint 3',
+      _id: new ObjectId("642c49a402da40faffd9b431")
+    }
+  ]
+}
+[4/5/2023, 3:27:58 PM] server	 employee-route.js - {
+  _id: new ObjectId("6419041bfb42201f0d57dc72"),
+  empId: 1010,
+  doing: [
+    { text: 'Doing', _id: new ObjectId("642c49a402da40faffd9b434") },
+    { text: 'Testing', _id: new ObjectId("642c49a402da40faffd9b435") }
+  ],
+  done: [
+    {
+      text: 'complete Sprint 1',
+      _id: new ObjectId("642c49a402da40faffd9b432")
+    },
+    {
+      text: 'Complete Sprint 2',
+      _id: new ObjectId("642c49a402da40faffd9b433")
+    }
+  ],
+  todo: [
+    {
+      text: 'Complete doing',
+      _id: new ObjectId("642c49a402da40faffd9b430")
+    },
+    {
+      text: 'Complete sprint 3',
+      _id: new ObjectId("642c49a402da40faffd9b431")
+    }
+  ]
+}
+[4/5/2023, 3:28:00 PM] server	 employee-route.js - {
+  _id: new ObjectId("6419041bfb42201f0d57dc72"),
+  empId: 1010,
+  doing: [
+    { text: 'Doing', _id: new ObjectId("642c49a402da40faffd9b434") },
+    { text: 'Testing', _id: new ObjectId("642c49a402da40faffd9b435") }
+  ],
+  done: [
+    {
+      text: 'complete Sprint 1',
+      _id: new ObjectId("642c49a402da40faffd9b432")
+    },
+    {
+      text: 'Complete Sprint 2',
+      _id: new ObjectId("642c49a402da40faffd9b433")
+    }
+  ],
+  todo: [
+    {
+      text: 'Complete doing',
+      _id: new ObjectId("642c49a402da40faffd9b430")
+    },
+    {
+      text: 'Complete sprint 3',
+      _id: new ObjectId("642c49a402da40faffd9b431")
+    }
+  ]
+}
+[4/5/2023, 3:28:04 PM] server	 employee-route.js - {
+  _id: new ObjectId("6419041bfb42201f0d57dc72"),
+  empId: 1010,
+  doing: [
+    { text: 'Doing', _id: new ObjectId("642c49a402da40faffd9b434") },
+    { text: 'Testing', _id: new ObjectId("642c49a402da40faffd9b435") }
+  ],
+  done: [
+    {
+      text: 'complete Sprint 1',
+      _id: new ObjectId("642c49a402da40faffd9b432")
+    },
+    {
+      text: 'Complete Sprint 2',
+      _id: new ObjectId("642c49a402da40faffd9b433")
+    }
+  ],
+  todo: [
+    {
+      text: 'Complete doing',
+      _id: new ObjectId("642c49a402da40faffd9b430")
+    },
+    {
+      text: 'Complete sprint 3',
+      _id: new ObjectId("642c49a402da40faffd9b431")
+    }
+  ]
+}
+[4/5/2023, 3:28:08 PM] server	 employee-route.js - {
+  _id: new ObjectId("6419041bfb42201f0d57dc72"),
+  empId: 1010,
+  doing: [
+    { text: 'Doing', _id: new ObjectId("642c49a402da40faffd9b434") },
+    { text: 'Testing', _id: new ObjectId("642c49a402da40faffd9b435") }
+  ],
+  done: [
+    {
+      text: 'complete Sprint 1',
+      _id: new ObjectId("642c49a402da40faffd9b432")
+    },
+    {
+      text: 'Complete Sprint 2',
+      _id: new ObjectId("642c49a402da40faffd9b433")
+    }
+  ],
+  todo: [
+    {
+      text: 'Complete doing',
+      _id: new ObjectId("642c49a402da40faffd9b430")
+    },
+    {
+      text: 'Complete sprint 3',
+      _id: new ObjectId("642c49a402da40faffd9b431")
+    }
+  ]
+}
+[4/5/2023, 3:30:56 PM] server	 employee-route.js - {
+  _id: new ObjectId("6419041bfb42201f0d57dc72"),
+  empId: 1010,
+  doing: [
+    { text: 'Doing', _id: new ObjectId("642c49a402da40faffd9b434") },
+    { text: 'Testing', _id: new ObjectId("642c49a402da40faffd9b435") }
+  ],
+  done: [
+    {
+      text: 'complete Sprint 1',
+      _id: new ObjectId("642c49a402da40faffd9b432")
+    },
+    {
+      text: 'Complete Sprint 2',
+      _id: new ObjectId("642c49a402da40faffd9b433")
+    }
+  ],
+  todo: [
+    {
+      text: 'Complete doing',
+      _id: new ObjectId("642c49a402da40faffd9b430")
+    },
+    {
+      text: 'Complete sprint 3',
+      _id: new ObjectId("642c49a402da40faffd9b431")
+    }
+  ]
+}
+[4/5/2023, 3:34:40 PM] server	 employee-route.js - {
+  _id: new ObjectId("6419041bfb42201f0d57dc72"),
+  empId: 1010,
+  doing: [
+    { text: 'Doing', _id: new ObjectId("642c49a402da40faffd9b434") },
+    { text: 'Testing', _id: new ObjectId("642c49a402da40faffd9b435") }
+  ],
+  done: [
+    {
+      text: 'complete Sprint 1',
+      _id: new ObjectId("642c49a402da40faffd9b432")
+    },
+    {
+      text: 'Complete Sprint 2',
+      _id: new ObjectId("642c49a402da40faffd9b433")
+    }
+  ],
+  todo: [
+    {
+      text: 'Complete doing',
+      _id: new ObjectId("642c49a402da40faffd9b430")
+    },
+    {
+      text: 'Complete sprint 3',
+      _id: new ObjectId("642c49a402da40faffd9b431")
+    }
+  ]
+}
+[4/5/2023, 3:35:08 PM] server	 employee-route.js - {
+  _id: new ObjectId("6419041bfb42201f0d57dc72"),
+  empId: 1010,
+  doing: [
+    { text: 'Doing', _id: new ObjectId("642c49a402da40faffd9b434") },
+    { text: 'Testing', _id: new ObjectId("642c49a402da40faffd9b435") }
+  ],
+  done: [
+    {
+      text: 'complete Sprint 1',
+      _id: new ObjectId("642c49a402da40faffd9b432")
+    },
+    {
+      text: 'Complete Sprint 2',
+      _id: new ObjectId("642c49a402da40faffd9b433")
+    }
+  ],
+  todo: [
+    {
+      text: 'Complete doing',
+      _id: new ObjectId("642c49a402da40faffd9b430")
+    },
+    {
+      text: 'Complete sprint 3',
+      _id: new ObjectId("642c49a402da40faffd9b431")
+    }
+  ]
+}
+[4/5/2023, 3:35:21 PM] server	 employee-route.js - {
+  _id: new ObjectId("6419041bfb42201f0d57dc72"),
+  empId: 1010,
+  doing: [
+    { text: 'Doing', _id: new ObjectId("642c49a402da40faffd9b434") },
+    { text: 'Testing', _id: new ObjectId("642c49a402da40faffd9b435") }
+  ],
+  done: [
+    {
+      text: 'complete Sprint 1',
+      _id: new ObjectId("642c49a402da40faffd9b432")
+    },
+    {
+      text: 'Complete Sprint 2',
+      _id: new ObjectId("642c49a402da40faffd9b433")
+    }
+  ],
+  todo: [
+    {
+      text: 'Complete doing',
+      _id: new ObjectId("642c49a402da40faffd9b430")
+    },
+    {
+      text: 'Complete sprint 3',
+      _id: new ObjectId("642c49a402da40faffd9b431")
+    }
+  ]
+}
+[4/5/2023, 3:35:25 PM] server	 employee-route.js - {
+  _id: new ObjectId("6419041bfb42201f0d57dc72"),
+  empId: 1010,
+  doing: [
+    { text: 'Doing', _id: new ObjectId("642c49a402da40faffd9b434") },
+    { text: 'Testing', _id: new ObjectId("642c49a402da40faffd9b435") }
+  ],
+  done: [
+    {
+      text: 'complete Sprint 1',
+      _id: new ObjectId("642c49a402da40faffd9b432")
+    },
+    {
+      text: 'Complete Sprint 2',
+      _id: new ObjectId("642c49a402da40faffd9b433")
+    }
+  ],
+  todo: [
+    {
+      text: 'Complete doing',
+      _id: new ObjectId("642c49a402da40faffd9b430")
+    },
+    {
+      text: 'Complete sprint 3',
+      _id: new ObjectId("642c49a402da40faffd9b431")
+    }
+  ]
+}
+[4/5/2023, 3:35:44 PM] server	 employee-route.js - {
+  _id: new ObjectId("6419041bfb42201f0d57dc72"),
+  empId: 1010,
+  doing: [
+    { text: 'Doing', _id: new ObjectId("642c49a402da40faffd9b434") },
+    { text: 'Testing', _id: new ObjectId("642c49a402da40faffd9b435") }
+  ],
+  done: [
+    {
+      text: 'complete Sprint 1',
+      _id: new ObjectId("642c49a402da40faffd9b432")
+    },
+    {
+      text: 'Complete Sprint 2',
+      _id: new ObjectId("642c49a402da40faffd9b433")
+    }
+  ],
+  todo: [
+    {
+      text: 'Complete doing',
+      _id: new ObjectId("642c49a402da40faffd9b430")
+    },
+    {
+      text: 'Complete sprint 3',
+      _id: new ObjectId("642c49a402da40faffd9b431")
+    }
+  ]
+}
+[4/5/2023, 3:37:21 PM] server	 employee-route.js - {
+  _id: new ObjectId("6419041bfb42201f0d57dc72"),
+  empId: 1010,
+  doing: [
+    { text: 'Doing', _id: new ObjectId("642c49a402da40faffd9b434") },
+    { text: 'Testing', _id: new ObjectId("642c49a402da40faffd9b435") }
+  ],
+  done: [
+    {
+      text: 'complete Sprint 1',
+      _id: new ObjectId("642c49a402da40faffd9b432")
+    },
+    {
+      text: 'Complete Sprint 2',
+      _id: new ObjectId("642c49a402da40faffd9b433")
+    }
+  ],
+  todo: [
+    {
+      text: 'Complete doing',
+      _id: new ObjectId("642c49a402da40faffd9b430")
+    },
+    {
+      text: 'Complete sprint 3',
+      _id: new ObjectId("642c49a402da40faffd9b431")
+    }
+  ]
+}

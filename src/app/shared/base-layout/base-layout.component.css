@@ -54,4 +54,8 @@ Description: styling for the nodebucket project
     .mobile-toggle {
     display: block;
   }
+  .footer-content {
+    padding-left: 0;
+    justify-content: center;
+  }
 }
