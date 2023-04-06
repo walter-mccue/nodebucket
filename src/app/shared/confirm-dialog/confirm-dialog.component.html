@@ -1,0 +1,21 @@
+<!--
+  Title: confirm-dialog.component.html
+  Author: Richard Krasso
+  Contributor: Walter McCue
+  Date: 04/05/23
+  Description: html for the nodebucket project
+-->
+
+<h2 mat-dialog-title>{{ dialogData.header }}</h2>
+
+<div mat-dialog-content>
+  <p>{{ dialogData.body }}</p>
+  <small class="dialog-warning">WARNING: This action cannot be undone.</small>
+</div>
+
+<mat-divider></mat-divider>
+
+<div mat-dialog-actions class="dialog-buttons">
+  <button mat-raised-button matDialogClose="cancel" class="primary-color">No thanks</button>
+  <button mat-raised-button matDialogClose="confirm" class="primary-color" cdkFocusInitial>Confirm</button>
+</div>

@@ -40,7 +40,9 @@
           <mat-icon>perm_identity</mat-icon>
         </button>
         <mat-menu #profileMenu class="primary-color">
-          <p style="padding: 10px; font-size: 16px; font-weight: lighter">Signed in as <span class="metal-mania">{{ sessionName }}</span></p>
+          <p style="padding: 10px; font-size: 18px; font-weight: bolder;">
+            Signed in as <span class="metal-mania" style="font-weight: normal;">{{ sessionName }}</span>
+          </p>
           <button mat-menu-item (click)="logout()">
             <mat-icon>logout</mat-icon>
             <span style="font-size: 16px; font-weight: bolder">Log out</span>

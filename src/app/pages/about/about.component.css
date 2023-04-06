@@ -5,4 +5,7 @@ Date: 03/26/23
 Description: styling for the nodebucket project
 */
 
-
+.max-height {
+  max-height: 500px;
+  max-width: 90%;
+}

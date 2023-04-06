@@ -12,7 +12,6 @@ Description: styling for the nodebucket project
 
 .navbar-link {
   font-size: 32px;
-  font-weight: bolder;
   padding-left: 50px;
   padding-right: 50px;
 }
@@ -30,9 +29,9 @@ Description: styling for the nodebucket project
 
 .footer-content {
   font-size: 16px;
-  font-weight: lighter;
   padding-left: 100px;
   letter-spacing: 3px;
+  padding-top: 10px;
 }
 
 .bu-link {
@@ -48,7 +47,7 @@ Description: styling for the nodebucket project
   display: none;
 }
 
-@media (max-width: 650px) {
+@media (max-width: 800px) {
   .navbar-container {
     display: none;
   }

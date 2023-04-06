@@ -10,6 +10,8 @@ p {
   font-size: 28px;
   line-height: 1.5;
   margin-bottom: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 a {
@@ -20,4 +22,10 @@ a {
 a:hover {
   cursor: pointer;
   text-decoration: underline;
+}
+
+@media (max-width: 800px) {
+  p {
+    font-size: 20px;
+  }
 }
