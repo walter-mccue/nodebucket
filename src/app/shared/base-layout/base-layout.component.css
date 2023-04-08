@@ -7,12 +7,13 @@ Description: styling for the nodebucket project
 */
 
 .navbar-container {
-  padding: 1px;
+  padding: 30px;
 }
 
 .navbar-link {
-  font-size: 24px;
-  font-weight: bolder;
+  font-size: 32px;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 .main-content {
@@ -28,9 +29,9 @@ Description: styling for the nodebucket project
 
 .footer-content {
   font-size: 16px;
-  font-weight: lighter;
   padding-left: 100px;
   letter-spacing: 3px;
+  padding-top: 10px;
 }
 
 .bu-link {
@@ -42,4 +43,22 @@ Description: styling for the nodebucket project
   text-decoration: underline;
 }
 
+.mobile-toggle {
+  display: none;
+}
 
+@media (max-width: 800px) {
+  .navbar-container {
+    display: none;
+  }
+
+    .mobile-toggle {
+    display: block;
+    display: flex;
+    flex-direction: column;
+  }
+  .footer-content {
+    padding-left: 0;
+    justify-content: center;
+  }
+}

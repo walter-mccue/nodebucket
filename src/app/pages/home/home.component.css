@@ -43,3 +43,15 @@ Description: styling for the nodebucket project
   justify-content: space-between;
   align-items: center;
 }
+
+.list-container {
+  width: 30%;
+  margin: 2%;
+  justify-items: center;
+}
+
+@media screen and (max-width: 800px) {
+  .list-container {
+    width: 95%;
+  }
+}

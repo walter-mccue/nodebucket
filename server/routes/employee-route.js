@@ -45,6 +45,60 @@ const taskSchema = {
   additionalProperties: false
 }
 
+// Schema for Validation
+const tasksSchema = {
+  type: 'object',
+  required: ['todo', 'done', 'doing'],
+  additionalProperties: false,
+  properties: {
+    todo: {
+      type: 'array',
+      additionalProperties: false,
+      items: {
+        type: 'object',
+        properties: {
+          text: {type: 'string'},
+          _id: {type: 'string'}
+        },
+        required: ['text', '_id'],
+        additionalProperties: false
+      }
+    },
+    done: {
+      type: 'array',
+      additionalProperties: false,
+      items: {
+        type: 'object',
+        properties: {
+          text: {type: 'string'},
+          _id: {type: 'string'}
+        },
+        required: ['text', '_id'],
+        additionalProperties: false
+      }
+    },
+    doing: {
+      type: 'array',
+      additionalProperties: false,
+      items: {
+        type: 'object',
+        properties: {
+          text: {type: 'string'},
+          _id: {type: 'string'}
+        },
+        required: ['text', '_id'],
+        additionalProperties: false
+      }
+    }
+  }
+}
+
+// function to getTasks
+function getTask(id, tasks) {
+  const task = tasks.find(item => item._id.toString() === id)
+  return task
+}
+
 
 /**
  * findEmployeeById
@@ -156,7 +210,7 @@ router.get('/:empId/tasks', async(req, res, next) => {
     try {
 
       // If entered value is a number, uses findOne() to attempt to retrieve the empId from mongoDB
-      const emp = await Employee.findOne({'empId': empId}, 'empId todo done')
+      const emp = await Employee.findOne({'empId': empId}, 'empId todo done doing')
 
       // Successful Query
       if (emp) {
@@ -175,8 +229,8 @@ router.get('/:empId/tasks', async(req, res, next) => {
     } catch (err) {
       errorLogger({filename: myFile, message: err})
       next(err)
-    }
 
+    }
   // Error handling for an invalid empId
   } else {
     const errorString = `req.params must be a number: ${empId}`
@@ -282,6 +336,202 @@ router.post('/:empId/tasks', async(req, res, next) => {
   } else {
     console.error('req.params.empId must be a number', empId)
     errorLogger({filename: myFile, message: `req.params.empId must be a number ${empId}`})
+  }
+})
+
+
+/**
+ * @openapi
+ *
+ * /api/employees/{empId}/tasks:
+ *   put:
+ *     tags:
+ *       - Employees
+ *     description: Updates the todo/done arrays for an employee record
+ *     summary: updates tasks for an empId
+ *     operationId: updateTasks
+ *     parameters:
+ *       - name: empId
+ *         in: path
+ *         required: true
+ *         schema:
+ *           type: number
+ *     requestBody:
+ *       required: true
+ *       content:
+ *         application/json:
+ *           schema:
+ *             type: object
+ *             required:
+ *               - todo
+ *               - done
+ *               - doing
+ *             properties:
+ *               todo:
+ *                 type: array
+ *               done:
+ *                 type: array
+ *               doing:
+ *                 type: array
+ *     responses:
+ *       '204':
+ *         description: Tasks updated to MongoDB
+ *       '400':
+ *         description: Bad Request
+ *       '404':
+ *         description: Null Record
+ *       '500':
+ *         description: Server Exception
+ *       '501':
+ *         description: MongoDB Exception
+ */
+
+// updateTasks
+router.put('/:empId/tasks', async(req, res, next) => {
+
+  let empId = req.params.empId
+  const err = checkNum(empId)
+
+  // If entered value is a number, uses findOne() to attempt to retrieve the empId from mongoDB
+  if (err === false) {
+
+    // try/catch block
+    try {
+      let emp = await Employee.findOne({'empId': empId})
+
+      // If empId does not exist create 404 error
+      if (!emp) {
+        console.error(createError(404))
+        errorLogger({filename: myFile, message: createError(404)})
+        next(createError(404))
+        return
+      }
+
+      // Validation requirement
+      const tasks = req.body
+      const validator = ajv.compile(tasksSchema)
+      const valid = validator(tasks)
+
+      // If data fails data validation create 400 error
+      if (!valid) {
+        const err = Error('Bad Request')
+        err.status = 400
+        console.log('Bad Request. Unable to validate req.body schema against tasksSchema')
+        errorLogger({filename: myFile, message: `Bad Request. Unable to verify req.body schema against tasksSchema`})
+        next(err)
+        return
+      }
+
+      // Successful task update
+      emp.set({
+        todo: req.body.todo,
+        done: req.body.done,
+        doing: req.body.doing
+      })
+      const result = await emp.save()
+      console.log(result)
+      debugLogger({filename: myFile, message: result})
+      res.status(204).send()
+
+    // Error handling for Server Errors
+    } catch (err) {
+      next(err)
+    }
+  }
+})
+
+
+/**
+ * @openapi
+ * /api/employees/{empId}/tasks/{taskId}:
+ *   delete:
+ *     tags:
+ *       - Employees
+ *     description: deletes a task from either todo or done arrays for an Employee record
+ *     summary: deletes a task for empId
+ *     operationId: deleteTask
+ *     parameters:
+ *       - name: empId
+ *         in: path
+ *         required: true
+ *         scheme:
+ *           type: number
+ *       - name: taskId
+ *         in: path
+ *         required: true
+ *         scheme:
+ *           type: string
+ *     responses:
+ *       '204':
+ *         description: Tasks updated to MongoDB
+ *       '400':
+ *         description: Bad Request
+ *       '404':
+ *         description: Null Record
+ *       '500':
+ *         description: Server Exception
+ *       '501':
+ *         description: MongoDB Exception
+ */
+
+// deleteTask
+router.delete('/:empId/tasks/:taskId', async(req, res, next) => {
+
+  let taskId = req.params.taskId
+  let empId = req.params.empId
+
+  const err = checkNum(empId)
+
+  // If entered value is a number, uses findOne() to attempt to retrieve the empId from mongoDB
+  if (err === false) {
+
+    // try/catch block
+    try {
+      let emp = await( Employee.findOne({'empId': empId}))
+
+      // If empId does not exist create 404 error
+      if (!emp) {
+        console.error(createError(404))
+        errorLogger({filename: myFile, message: createError(404)})
+        next(createError(404))
+        return
+      }
+
+      // Variable to hold taskId from user input
+      const todoTask = getTask(taskId, emp.todo)
+      const doneTask = getTask(taskId, emp.done)
+      const doingTask = getTask(taskId, emp.doing)
+
+      // Deletes the task from todo or done arrays
+      if (todoTask !== undefined) {
+        emp.todo.id(todoTask._id).remove()
+      }
+      if (doneTask !== undefined) {
+        emp.done.id(doneTask._id).remove()
+      }
+      if (doingTask !== undefined) {
+        emp.doing.id(doingTask._id).remove()
+      }
+
+      // If taskId does not exist, create 404 error
+      if (todoTask === undefined && doneTask === undefined && doingTask === undefined) {
+        const err = Error('Not Found')
+        err.status = 404
+        console.error('TaskId not Found',  taskId)
+        errorLogger({filename: myFile, message: `TaskId not found ${taskId}`})
+        next(err)
+        return
+      }
+
+      // Successful deleteTask
+      const result = await emp.save()
+      debugLogger({filename: myFile, message: result})
+      res.status(204).send()
+
+    // Error handling for Server Errors
+    } catch (err) {
+      next(err)
+    }
   }
 })
 

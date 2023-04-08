@@ -1,0 +1,16 @@
+/**
+Title: confirm-dialog.component.sss
+Author: Author: Richard Krasso
+Contributor: Walter McCue
+Date: 04/05/23
+Description: styling for the nodebucket project
+*/
+
+.dialog-warning {
+  color: red;
+  font-weight: bold;
+}
+
+.dialog-buttons {
+  justify-content: space-between;
+}

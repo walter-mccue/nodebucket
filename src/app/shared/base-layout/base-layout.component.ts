@@ -6,7 +6,6 @@
  * Description: ts for the nodebucket project
 */
 
-
 // Import statements
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
@@ -15,7 +14,8 @@ import { CookieService } from 'ngx-cookie-service';
 @Component({
   selector: 'app-base-layout',
   templateUrl: './base-layout.component.html',
-  styleUrls: ['./base-layout.component.css']
+  styleUrls: ['./base-layout.component.css'],
+  providers: []
 })
 
 export class BaseLayoutComponent implements OnInit {
@@ -36,6 +36,10 @@ export class BaseLayoutComponent implements OnInit {
   logout() {
     this.cookieService.deleteAll()
     this.router.navigate(['/session/login'])
+    // Delay to tell the user they have been logged out after the cookie has been deleted and user navigated back to login
+    setTimeout(() => {
+      alert('You have been logged out.')
+    }, 250)
   }
 
 }

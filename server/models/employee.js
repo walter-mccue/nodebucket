@@ -16,7 +16,8 @@ let employeeSchema = new Schema({
   firstName: { type: String },
   lastName: { type: String },
   todo: [itemSchema],
-  done: [itemSchema]
+  done: [itemSchema],
+  doing: [itemSchema]
 }, {collection: 'employees'});
 
 // Export statement
